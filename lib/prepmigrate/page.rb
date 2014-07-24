@@ -1,15 +1,30 @@
 require 'nokogiri'
+require 'uri'
 
 module Prepmigrate
 	class Page
+
+		class UnknownContentTypeError < RuntimeError
+		end
+
+		class MissingTitleError < RuntimeError 
+		end
+
+		class NoteMustBeString < RuntimeError
+		end
 
 		attr_reader :url, :path, :doc, :notes
 
 		def initialize(url, body)
 			@url = url
-			@path = url.sub(/\.html?\Z/, '')
+			@path = URI(url).path.sub /\.html?\Z/, ''
 			@doc = Nokogiri::HTML::Document.parse (body)
 			@notes = Array.new
+		end
+
+		def migrate_note (msg)
+			raise NoteMustBeStringError, "unexpected class #{msg.class}" unless msg.is_a? String
+			@notes << msg
 		end
 
 		def body
@@ -30,7 +45,7 @@ module Prepmigrate
 			elsif basic?
 				"page"
 			else
-				raise Prepmigrate::UnknownContentTypeError.new path
+				raise UnknownContentTypeError, url
 			end
 		end
 
@@ -52,16 +67,42 @@ module Prepmigrate
 			!primary.nil?
 		end
 
+		def basic?
+			!body.nil? and primary.nil?
+		end
+
 		def build (xml)
+			look_for_styles_and_scripts
+
 			xml.page do
 				xml.path { xml.text path }
 				xml.type { xml.text type }
 				xml.title { xml.text title }
+				if notes.size > 0
+					xml.notes { notes.each { |note| xml.note { xml.text note } } }
+				end
 			end
 		end
 
-		def basic?
-			!body.nil? and primary.nil?
+		def look_for_styles_and_scripts
+			el = doc.at_xpath('//head/title')
+			raise MissingTitleError, url unless el
+			el = el.next
+			until el.nil? do 
+				case el.node_name
+				when 'style'
+					migrate_note "unsupported style element at line #{el.line}"
+				when 'script'
+					unless (el.attr('src') =~ /forsee-surveydef/) 
+						migrate_note "Unsupported script element at line #{el.line}"
+					end
+				when 'link'
+					if (el.attr('rel').eql?('stylesheet'))
+						migrate_note "Unsupported stylesheet link at line #{el.line}"
+					end
+				end
+				el = el.next
+			end
 		end
 	end
 end

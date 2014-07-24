@@ -14,7 +14,7 @@ module Prepmigrate
 	    		STDERR.puts "HTTP ERROR: #{origurl}: #{res.code} #{res.msg}"
 	    		return nil
 	    	else
-		    	page = Prepmigrate::Page.new URI(origurl).path, res.body
+		    	page = Prepmigrate::Page.new origurl, res.body
 		    	yield page if block_given?
 		    	return page
 		    end

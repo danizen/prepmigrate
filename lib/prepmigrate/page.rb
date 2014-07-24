@@ -118,21 +118,21 @@ module Prepmigrate
 
       # look for relative images and make them absolute
       node.xpath('.//img[@src]').each do |img|
-        src = URI(img.attr('src'))
+        src = URI(img['src'])
         if (src.relative?) 
           src.scheme = 'http'
           src.hostname = 'www.nlm.nih.gov'
-          img.src = src.to_s
+          img['src'] = src.to_s
         end
       end
 
       # look for absolute links and make them relative
       node.xpath('.//a[@href]').each do |link|
-        href = URI(link.attr('href'))
+        href = URI(link['href'])
         if (href.absolute? && href.scheme.eql?('http') && href.hostname.eql?("www.nlm.nih.gov"))
           href.scheme = nil
           href.hostname = nil
-          link.href = href.to_s
+          link['href'] = href.to_s
         end
       end
     end
@@ -142,8 +142,6 @@ module Prepmigrate
       if (atitle = node.at_xpath('h1')) 
         atitle.remove
       end
-      @htmltype = 'filtered'
-
       node.inner_html.strip
     end
 

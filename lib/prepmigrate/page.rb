@@ -35,6 +35,7 @@ module Prepmigrate
       unless @title
         @title = (!body.nil?) ? @title = body.at_xpath("h1/text()") : nil
         @title.nil? && @title = doc.at_xpath("//head/title/text()")
+        !@title.nil? && @title = @title.content.strip
       end
       @title
     end
@@ -63,6 +64,45 @@ module Prepmigrate
       @secondary
     end
 
+    def branding
+      unless @branding
+        barbranding = doc.at_xpath("//div[@id='barbranding']")
+        if barbranding.nil? or barbranding.child.nil?
+          @branding = nil
+        else
+          h3brand = barbranding.at_xpath("h3")
+          h3content = h3brand.nil? ? '' : h3brand.content
+          case h3brand.content
+          when /Bibliographic Services/
+            @branding = 'BSD'
+          when /Extramural Funding/
+            @branding = 'EP'
+          when /History/
+            @branding = 'HMD'
+          when /Public Services/
+            @branding = 'PSD'
+          when /Acquisitions/
+            @branding = 'TSD Acquisitions'
+          when /Cataloging/
+            @branding = 'TSD Cataloging'
+          when /APIs/
+            @branding = 'API'
+          when /UMLS/
+            @branding = 'UMLS'
+          when /Medical Subject Headings/
+            @branding = 'MeSH'
+          when nil
+            @branding = nil
+            migrate_note "barbranding non-empty but h3 missing"
+          else
+            @branding = nil
+            migrate_note "barbranding non-empty but h3 blank or unrecognized"
+          end
+        end
+      end
+      @branding
+    end
+
     def sidebar?
       !primary.nil?
     end
@@ -78,6 +118,7 @@ module Prepmigrate
         xml.path { xml.text path }
         xml.type { xml.text type }
         xml.title { xml.text title }
+        xml.branding { xml.text branding }
         if notes.size > 0
           xml.notes { notes.each { |note| xml.note { xml.text note } } }
         end

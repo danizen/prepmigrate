@@ -1,29 +1,21 @@
 # Prepmigrate
 
-TODO: Write a gem description
+Crawl some URLs I need to migrate into a prototype version of a Drupal CMS,
+and build XML files describing the data to go into Drupal so that these can
+be processed as a Drupal migration.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'prepmigrate'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install prepmigrate
+This is a project, not a module.   You check it out and use.
 
 ## Usage
 
-TODO: Write usage instructions here
+There are two content types to be migrated - `page_with_sidebar` and `page`
+There are two commands to do this:
+
+    bin/build-sidebars.rb stilltodo.csv > sidebar-pages.xml
+    bin/build-basics.rb stilltodo.csv > basic-pages.xml
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/prepmigrate/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+Really should be private; don't contirbute but feel free to look.

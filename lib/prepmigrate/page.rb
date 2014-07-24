@@ -96,11 +96,101 @@ module Prepmigrate
             migrate_note "barbranding non-empty but h3 missing"
           else
             @branding = nil
-            migrate_note "barbranding non-empty but h3 blank or unrecognized"
+            migrate_note "barbranding non-empty but h3 unrecognized"
           end
         end
       end
       @branding
+    end
+
+    ##
+    # There's a lot to do here:
+    #  - blah, blah 
+    # 
+    def check_content node
+      if (classyul = node.at_xpath(".//ul[@class]")) 
+        migrate_note "Found ul with class at #{classyul.line}"
+      end
+
+      if (anydiv = node.at_xpath(".//div"))
+        migrate_note "Found div within content at #{anydiv.line}"
+      end
+
+      # look for relative images and make them absolute
+      node.xpath('.//img[@src]').each do |img|
+        src = URI(img.attr('src'))
+        if (src.relative?) 
+          src.scheme = 'http'
+          src.hostname = 'www.nlm.nih.gov'
+          img.src = src.to_s
+        end
+      end
+
+      # look for absolute links and make them relative
+      node.xpath('.//a[@href]').each do |link|
+        href = URI(link.attr('href'))
+        if (href.absolute? && href.scheme.eql?('http') && href.hostname.eql?("www.nlm.nih.gov"))
+          href.scheme = nil
+          href.hostname = nil
+          link.href = href.to_s
+        end
+      end
+    end
+
+    def build_body node
+      check_content node
+      if (atitle = node.at_xpath('h1')) 
+        atitle.remove
+      end
+      @htmltype = 'filtered'
+
+      node.inner_html.strip
+    end
+
+    ## 
+    # We don't do basicbody as lazy initialization because we only expect ever to use it once,
+    # when building the new XML content.
+    def newbody
+      unless @newbody
+        if basic?
+          @newbody = build_body body
+        elsif sidebar?
+          @newbody = build_body primary
+        else
+          migrate_note "unknown document type"
+          @newbody = nil
+        end
+      end
+      @newbody
+    end
+
+    def newsidebar
+      unless @newsidebar
+        if sidebar?
+          relbar = secondary.at_xpath("div[@id='relatedBar']")
+          if relbar.nil?
+            check_content secondary
+            @newsidebar = secondary.inner_html.strip
+            migrate_note "Sidebar content was not a related bar"
+          else
+            firstitem = relbar.at_xpath("ul/li")
+            if (firstitem && (blueitem = firstitem.at_xpath(".//img")))
+              @blueitem_src = blueitem.attr('src');
+              @blueitem_alt = blueitem.attr('alt');
+              firstitem.remove
+            end
+            frags = Array.new
+            relbar.xpath("ul/li").each do |item|
+              check_content item
+              frags << item.inner_html.strip
+            end
+            @newsidebar = frags.join('')
+          end
+        else
+          @newsidebar = nil
+        end
+      end
+      @newsidebar
     end
 
     def sidebar?
@@ -118,7 +208,15 @@ module Prepmigrate
         xml.path { xml.text path }
         xml.type { xml.text type }
         xml.title { xml.text title }
-        xml.branding { xml.text branding }
+        unless branding .nil?
+          xml.branding { xml.text branding }
+        end
+        if sidebar?
+          xml.body { xml.text newbody }
+          xml.sidebar { xml.text newsidebar }
+        else
+          xml.body { xml.text newbody }
+        end
         if notes.size > 0
           xml.notes { notes.each { |note| xml.note { xml.text note } } }
         end

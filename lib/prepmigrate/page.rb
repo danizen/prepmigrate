@@ -64,6 +64,21 @@ module Prepmigrate
       @secondary
     end
 
+    def created
+      parse_footer_review unless @created
+      @created
+    end
+
+    def changed
+      parse_footer_review unless @changed
+      @changed
+    end
+
+    def permanence
+      parse_footer_review unless @permanence
+      @permanence
+    end
+
     def branding
       unless @branding
         barbranding = doc.at_xpath("//div[@id='barbranding']")
@@ -209,6 +224,15 @@ module Prepmigrate
         unless branding .nil?
           xml.branding { xml.text branding }
         end
+        unless created.nil?
+          xml.created { xml.text created }
+        end
+        unless changed.nil?
+          xml.changed { xml.text changed }
+        end
+        unless permanence.nil?
+          xml.changed { xml.text permanence }
+        end
         if sidebar?
           xml.body { xml.text newbody }
           xml.sidebar { xml.text newsidebar }
@@ -221,10 +245,11 @@ module Prepmigrate
       end
     end
 
+private
     def look_for_styles_and_scripts
       el = doc.at_xpath('//head/title')
       raise MissingTitleError, url unless el
-      el = el.next
+      el = el.next_element
       until el.nil? do 
         case el.node_name
         when 'style'
@@ -238,7 +263,32 @@ module Prepmigrate
             migrate_note "Unsupported stylesheet link at line #{el.line}"
           end
         end
-        el = el.next
+        el = el.next_element
+      end
+    end
+
+    def parse_footer_review
+      footer = doc.at_xpath "p[@id='footer-review']"
+      if footer.nil?
+        @created = nil
+        @changed = nil
+        @permanence = nil
+      else
+        footer.element_children.each do |node|
+          if (node.name.eql? 'strong')
+            nextel = node.next_element
+            if (!nextel.nil? && nextel.text?)
+              case el.content 
+              when 'Last updated'
+                @changed = Date.strptime(nextel.content, '%d %B %Y').strftime('%Y-%m-%d')
+              when 'First published'
+                @created = Date.strptime(nextel.content, '%d %B %Y').strftime('%Y-%m-%d')
+              when ':'
+                @permanence = nextel.content
+              end
+            end
+          end
+        end
       end
     end
   end

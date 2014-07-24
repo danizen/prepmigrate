@@ -1,23 +1,20 @@
 require 'net/http'
 require 'uri'
+require 'csv'
 
 module Prepmigrate
 	class Crawler
 		def initialize
-			@http = Net::HTTP.new 'wwww.nlm.nih.gov'
+			@http = Net::HTTP.new 'www.nlm.nih.gov'
 		end
 
-		def page (origurl)
-			path = origurl.sub %r/\Ahttp:\/\/www\.nlm\.nih\.gov\//, '/'
-    		path.sub! %r/\Awww\.nlm\.nih\.gov\//, '/'
-
-	    	res = http.request_get path
+		def crawl (origurl)
+	    	res = @http.request_get origurl
 	    	unless (res.is_a? Net::HTTPSuccess)
 	    		STDERR.puts "HTTP ERROR: #{origurl}: #{res.code} #{res.msg}"
 	    		return nil
 	    	else
-		    	doc = Nokogiri::HTML::Document.parse(res.body)
-		    	page = Prepmigrate::Page.new res.body
+		    	page = Prepmigrate::Page.new URI(origurl).path, res.body
 		    	yield page if block_given?
 		    	return page
 		    end

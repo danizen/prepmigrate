@@ -1,7 +1,7 @@
 require "prepmigrate/version"
+require "prepmigrate/crawler"
+require "prepmigrate/page"
 
 module Prepmigrate
   	# Your code goes here...
-  	autoload :Page, "prepmigrate/page.rb"
-  	autoload :Crawler, "prepmigrate/crawler.rb"
 end

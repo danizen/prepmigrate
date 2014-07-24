@@ -21,7 +21,7 @@ builder = Nokogiri::XML::Builder.new(:encoding => 'UTF-8') do |xml|
 			automatic = row[1]
 			if (url != 'URL' and automatic == 'Yes') 
 				crawler.crawl url do |page|
-					if page.sidebar?
+					if page.basic?
 						page.build xml
 					end
 				end

@@ -3,49 +3,60 @@ require 'nokogiri'
 module Prepmigrate
 	class Page
 
-		def initialize(body)
+		def initialize(path, body)
+			@path = path.sub(/\.html?\Z/, '')
 			@doc = Nokogiri::HTML::Document.parse (body)
-			@body = false
-			@primary = false
-			@secondary = false
-			@relatedbar = false
 			@notes = Array.new
 		end
 
+		def path
+			@path
+		end
+
+		def doc
+			@doc
+		end
+
 		def body
-			if @body == false
-				@body = @doc.at_xpath "//div[@id='body']"
+			@body ||= @doc.at_xpath("//div[@id='body']")
+		end
+
+		def title
+			unless @title
+				# lazy initialization
+				@title = (!body.nil?) ? @title = body.at_xpath("h1/text()") : nil
+				@title.nil? && @title = doc.at_xpath("//head/title/text()")
 			end
-			@body
+			@title
 		end
 
 		def primary
-			if @primary == false
-				@primary = body ? body.at_xpath "div[@id='primary']" : nil
+			unless @primary
+				@primary = (!body.nil?) ? body.at_xpath("div[@id='primary']") : nil
 			end
-			@secondary
+			@primary
 		end
 
 		def secondary
-			if @secondary == false
-				@secondary = body ? body.at_xpath "div[@id='secondary']" : nil
+			unless @secondary
+				@secondary = (!body.nil?) ? body.at_xpath("div[@id='secondary']") : nil
 			end
 			@secondary
 		end
 
-		def relatedbar
-			if @relatedbar == false
-				@relatedbar = secondary ? secondary.at_xpath "div[@id='relatedBar']" : nil
+		def sidebar?
+			!primary.nil?
+		end
+
+		def build (xml)
+			xml.page do
+				xml.path { xml.text path }
+				xml.title { xml.text title }
 			end
-			@relatedBar
 		end
 
-		def is_sidebar?
-			not (primary.nil? or primary == false)
-		end
-
-		def is_page?
-			(not (body.nil? or body == false)) and not primary
+		def basic?
+			!body.nil? and primary.nil?
 		end
 	end
 end

@@ -3,18 +3,13 @@ require 'nokogiri'
 module Prepmigrate
 	class Page
 
-		def initialize(path, body)
-			@path = path.sub(/\.html?\Z/, '')
+		attr_reader :url, :path, :doc, :notes
+
+		def initialize(url, body)
+			@url = url
+			@path = url.sub(/\.html?\Z/, '')
 			@doc = Nokogiri::HTML::Document.parse (body)
 			@notes = Array.new
-		end
-
-		def path
-			@path
-		end
-
-		def doc
-			@doc
 		end
 
 		def body
@@ -23,11 +18,20 @@ module Prepmigrate
 
 		def title
 			unless @title
-				# lazy initialization
 				@title = (!body.nil?) ? @title = body.at_xpath("h1/text()") : nil
 				@title.nil? && @title = doc.at_xpath("//head/title/text()")
 			end
 			@title
+		end
+
+		def type
+			if sidebar? 
+				"page_with_sidebar"
+			elsif basic?
+				"page"
+			else
+				raise Prepmigrate::UnknownContentTypeError.new path
+			end
 		end
 
 		def primary
@@ -51,6 +55,7 @@ module Prepmigrate
 		def build (xml)
 			xml.page do
 				xml.path { xml.text path }
+				xml.type { xml.text type }
 				xml.title { xml.text title }
 			end
 		end

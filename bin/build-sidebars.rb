@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-require 'csv'
+require 'nokogiri'
 
 begin
   $:.unshift(File.expand_path(File.join(File.dirname(__FILE__), '..', 'lib')))

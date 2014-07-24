@@ -3,5 +3,9 @@ require "prepmigrate/crawler"
 require "prepmigrate/page"
 
 module Prepmigrate
-  	# Your code goes here...
+	class Error < RuntimeError
+	end
+
+  	class UnknownContentTypeError < Error
+  	end
 end

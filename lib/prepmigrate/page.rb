@@ -267,8 +267,12 @@ private
       end
     end
 
+    def convert_date node
+      Date.strptime(node.to_s.strip, '%d %B %Y').strftime('%Y-%m-%d')
+    end
+
     def parse_footer_review
-      footer = doc.at_xpath "p[@id='footer-review']"
+      footer = doc.at_xpath ".//p[@id='footer-review']"
       if footer.nil?
         @created = nil
         @changed = nil
@@ -276,15 +280,15 @@ private
       else
         footer.element_children.each do |node|
           if (node.name.eql? 'strong')
-            nextel = node.next_element
-            if (!nextel.nil? && nextel.text?)
-              case el.content 
-              when 'Last updated'
-                @changed = Date.strptime(nextel.content, '%d %B %Y').strftime('%Y-%m-%d')
-              when 'First published'
-                @created = Date.strptime(nextel.content, '%d %B %Y').strftime('%Y-%m-%d')
+            nextnode = node.next
+            if (!nextnode.nil? && nextnode.text?)
+              case node.content 
+              when 'Last updated:'
+                @changed = convert_date nextnode
+              when 'First published:'
+                @created = convert_date nextnode
               when ':'
-                @permanence = nextel.content
+                @permanence = nextnode.to_s.strip
               end
             end
           end

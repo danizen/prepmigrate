@@ -24,6 +24,7 @@ builder = Nokogiri::XML::Builder.new(:encoding => 'UTF-8') do |xml|
       if (url != 'URL' and automatic == 'Yes') 
         crawler.crawl url do |page|
           if page.type.eql?(type)
+            page.migrate_note row[2] unless (row[2].nil? || row[2].empty?)
             page.build xml
           end
         end

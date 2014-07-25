@@ -1,5 +1,6 @@
 require 'nokogiri'
 require 'uri'
+require 'ostruct'
 
 module Prepmigrate
   class Page
@@ -90,7 +91,7 @@ module Prepmigrate
           case h3brand.content
           when /Bibliographic Services/
             @branding = 'BSD'
-          when /Extramural Funding/
+          when /Extramural Programs/
             @branding = 'EP'
           when /History/
             @branding = 'HMD'
@@ -187,31 +188,39 @@ module Prepmigrate
 
     def newsidebar
       unless @newsidebar
+        @blueitem = nil
         if sidebar?
           relbar = secondary.at_xpath("div[@id='relatedBar']")
           if relbar.nil?
-            check_content secondary
-            @newsidebar = secondary.inner_html.strip
-            migrate_note "Sidebar content was not a related bar"
-          else
+            relbar = secondary.at_xpath("div[@id='relatedPages']")
+          end
+          unless relbar.nil?
             firstitem = relbar.at_xpath("ul/li")
             if (firstitem && (blueitem = firstitem.at_xpath(".//img")))
-              @blueitem_src = blueitem.attr('src');
-              @blueitem_alt = blueitem.attr('alt');
+              src = blueitem['src'] 
+              unless (src.start_with? '/') 
+                src = "http://www.nlm.nih.gov" + File.dirname(path) + "/#{src}"
+              else
+                src = "http://www.nlm.nih.gov#{src}"
+              end
+              @blueitem = OpenStruct.new(:src => src, :alt => blueitem['alt'], :title => blueitem['title'])
               firstitem.remove
             end
-            frags = Array.new
-            relbar.xpath("ul/li").each do |item|
-              check_content item
-              frags << item.inner_html.strip
-            end
-            @newsidebar = frags.join('')
           end
+          check_content secondary
+          @newsidebar = secondary.inner_html.strip
         else
           @newsidebar = nil
         end
       end
       @newsidebar
+    end
+
+    def blueitem
+      unless @blueitem 
+        newsidebar
+      end
+      @blueitem
     end
 
     def sidebar?
@@ -227,7 +236,7 @@ module Prepmigrate
 
       xml.page do
         xml.source { xml.text url }
-        xml.path { xml.text path }
+        xml.alias { xml.text path }
         xml.type { xml.text type }
         xml.title { xml.text title }
         unless branding .nil?
@@ -247,6 +256,13 @@ module Prepmigrate
           xml.sidebar { xml.text newsidebar }
         else
           xml.body { xml.text newbody }
+        end
+        unless blueitem.nil?
+          xml.blueitem do
+            xml.src { xml.text blueitem.src } if blueitem.src
+            xml.alt { xml.text blueitem.alt } if blueitem.alt
+            xml.title { xml.text blueitem.title } if blueitem.title
+          end
         end
         if notes.size > 0
           xml.notes { notes.each { |note| xml.note { xml.text note } } }

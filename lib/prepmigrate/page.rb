@@ -133,21 +133,29 @@ module Prepmigrate
 
       # look for relative images and make them absolute
       node.xpath('.//img[@src]').each do |img|
-        src = URI(img['src'])
-        if (src.relative?) 
-          src.scheme = 'http'
-          src.hostname = 'www.nlm.nih.gov'
-          img['src'] = src.to_s
+        begin
+          src = URI(img['src'])
+          if (src.relative?) 
+            src.scheme = 'http'
+            src.hostname = 'www.nlm.nih.gov'
+            img['src'] = src.to_s
+          end
+        rescue Exception => e
+          STDERR.puts "img at #{url}:#{img.line} - #{e.inspect}"
         end
       end
 
       # look for absolute links and make them relative
       node.xpath('.//a[@href]').each do |link|
-        href = URI(link['href'])
-        if (href.absolute? && href.scheme.eql?('http') && href.hostname.eql?("www.nlm.nih.gov"))
-          href.scheme = nil
-          href.hostname = nil
-          link['href'] = href.to_s
+        begin 
+          href = URI(link['href'])
+          if (href.absolute? && href.scheme.eql?('http') && href.hostname.eql?("www.nlm.nih.gov"))
+            href.scheme = nil
+            href.hostname = nil
+            link['href'] = href.to_s
+          end
+        rescue Exception => e
+          STDERR.puts "anchor at #{url}:#{link.line} - #{e.inspect}"
         end
       end
     end
@@ -218,6 +226,7 @@ module Prepmigrate
       look_for_styles_and_scripts
 
       xml.page do
+        xml.source { xml.text url }
         xml.path { xml.text path }
         xml.type { xml.text type }
         xml.title { xml.text title }
@@ -231,7 +240,7 @@ module Prepmigrate
           xml.changed { xml.text changed }
         end
         unless permanence.nil?
-          xml.changed { xml.text permanence }
+          xml.permanence { xml.text permanence }
         end
         if sidebar?
           xml.body { xml.text newbody }
@@ -268,7 +277,11 @@ private
     end
 
     def convert_date node
-      Date.strptime(node.to_s.strip, '%d %B %Y').strftime('%Y-%m-%d')
+      begin 
+        Date.strptime(node.to_s.strip, '%d %B %Y').strftime('%Y-%m-%d')
+      rescue Exception => e
+        STDERR.puts "bad date text at #{url}:#{node.line} - #{e.inspect}"
+      end
     end
 
     def parse_footer_review

@@ -107,6 +107,10 @@ module Prepmigrate
             @branding = 'UMLS'
           when /Medical Subject Headings/
             @branding = 'MeSH'
+          when /NN\/LM National Network Office/
+            @branding = 'NNLM'
+          when /Office of Acquisitions/
+            @branding = 'OAM'
           when nil
             @branding = nil
             migrate_note "barbranding non-empty but h3 missing"
@@ -147,13 +151,16 @@ module Prepmigrate
       end
 
       # look for absolute links and make them relative
+      # Also strip the ".html" from all links
       node.xpath('.//a[@href]').each do |link|
         begin 
           href = URI(link['href'])
           if (href.absolute? && href.scheme.eql?('http') && href.hostname.eql?("www.nlm.nih.gov"))
             href.scheme = nil
             href.hostname = nil
-            link['href'] = href.to_s
+            link['href'] = href.to_s.sub(/\.html\Z/, '')
+          elsif href.relative?
+            link['href'] = href.to_s.sub(/\.html\Z/, '')
           end
         rescue Exception => e
           STDERR.puts "anchor at #{url}:#{link.line} - #{e.inspect}"
@@ -189,24 +196,44 @@ module Prepmigrate
     def newsidebar
       unless @newsidebar
         @blueitem = nil
+
         if sidebar?
-          relbar = secondary.at_xpath("div[@id='relatedBar']")
-          if relbar.nil?
-            relbar = secondary.at_xpath("div[@id='relatedPages']")
-          end
-          unless relbar.nil?
-            firstitem = relbar.at_xpath("ul/li")
-            if (firstitem && (blueitem = firstitem.at_xpath(".//img")))
-              src = blueitem['src'] 
-              unless (src.start_with? '/') 
-                src = "http://www.nlm.nih.gov" + File.dirname(path) + "/#{src}"
-              else
-                src = "http://www.nlm.nih.gov#{src}"
-              end
-              @blueitem = OpenStruct.new(:src => src, :alt => blueitem['alt'], :title => blueitem['title'])
-              firstitem.remove
+          # progressively remove each div
+          div = secondary.at_xpath('.//div')
+          while !div.nil? do
+            parent = div.parent
+            div.children.each do |child|
+              child.parent = parent
             end
+            div.remove
+            div = secondary.at_xpath('.//div')
           end
+
+          # look for first ul/li, if that contains an image, we take
+          # the image as the blueitem and remove the li.
+          firstitem = secondary.at_xpath(".//ul/li")
+          if (firstitem && (blueitem = firstitem.at_xpath("img")))
+            src = blueitem['src'] 
+            unless (src.start_with? '/') 
+              src = "http://www.nlm.nih.gov" + File.dirname(path) + "/#{src}"
+            else
+              src = "http://www.nlm.nih.gov#{src}"
+            end
+            @blueitem = OpenStruct.new(:src => src, :alt => blueitem['alt'], :title => blueitem['title'])
+            firstitem.remove
+          end
+
+          # If the first ul contains other uls, promote the children of each item and remove ul
+          firstul = secondary.at_xpath("ul")
+          if (firstul && !firstul.xpath("li/ul").empty?)
+            parent = firstul.parent
+            firstul.xpath("li/node()").each do |item|
+              item.parent = parent
+            end
+            firstul.remove
+          end
+
+          # Check the now sanitized content
           check_content secondary
           @newsidebar = secondary.inner_html.strip
         else

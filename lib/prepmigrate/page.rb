@@ -41,6 +41,51 @@ module Prepmigrate
       @title
     end
 
+    def listings
+      unless @listings
+        @listings = (!body.nil?) ? body.at_xpath("div[@id='listings']") : nil
+      end
+      @listings
+    end
+
+    def factsheets_hash
+      unless @factsheets_hash
+        @factsheets_hash = Hash.new { |h,k| h[k] = Array.new }
+        unless listings.nil?
+          listings.xpath("ul/li").each do |category|
+
+            # name of category
+            if (name = category.at_xpath("h2/text()")) 
+              name = name.to_s().strip
+            end
+
+            # values within category
+            category.xpath("ul/li/a").each do |link|
+              unless link['href'].nil?
+                href = URI(link['href'])
+                if (href.absolute? && href.scheme.eql?('http') && href.hostname.eql?('www.nlm.nih.gov'))
+                  href.scheme = nil
+                  href.hostname = nil
+                  href.path = href.path.sub /\.html\z/, ''
+                elsif (href.relative?)
+                  href.path = href.path.sub /\.html\z/, ''
+                  unless href.path.start_with?('/')
+                    href.path = "/pubs/factsheets/#{href.path}"
+                  end
+                end
+                if (href.relative? && href.path.start_with?('/pubs/factsheets/'))
+                  @factsheets_hash[href.to_s] << name
+                end
+              end
+            end
+            
+          end
+        end
+      end
+      @factsheets_hash
+    end
+
+
     def type
       if sidebar? 
         "page_with_sidebar"

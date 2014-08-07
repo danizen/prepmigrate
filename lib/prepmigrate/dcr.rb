@@ -12,12 +12,12 @@ module Prepmigrate
     end
 
     def mkalias
-      unless @alias do
+      unless @alias
         uri = URI(url)
         uri.scheme = nil
         uri.hostname = nil                
         uri.path = uri.path.sub /\.html?\z/, ''
-        @alias = uri.to_str
+        @alias = uri.to_s
       end
       @alias
     end
@@ -35,7 +35,13 @@ module Prepmigrate
     end
 
     def subheading
-      @subheading ||= record.at_xpath("item[@name='subheading']/value/text()")
+      unless @subheading
+        @subheading = nil
+        if (value = record.at_xpath("item[@name='subheading']/value"))
+          @subheading = value.content().gsub /<\/?[^>]+>/, ''
+        end
+      end
+      @subheading
     end
 
     def build (xml)

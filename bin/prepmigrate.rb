@@ -43,7 +43,8 @@ case type
         CSV.foreach csvpath do |row|         
           dcr_path = row[0]
           url = row[1]
-          Prepmigrate.parse_dcr(dcr_path, url) do |dcr|
+          real_path = File.expand_path(dcr_path, File.dirname(csvpath))
+          Prepmigrate.parse_dcr(real_path, url) do |dcr|
             dcr.build xml
           end
         end

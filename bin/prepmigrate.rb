@@ -10,7 +10,7 @@ end
 
 if (ARGV.size != 2) 
   STDERR.puts "Usage: #{$0} <type> { <CSV_path> | <url> }"
-  STDERR.puts "type must be one of 'page', 'page_with_sidebar', or 'factsheets'"
+  STDERR.puts "type must be one of 'page', 'page_with_sidebar', 'factsheets', 'exhibition'"
   exit 1
 end
 
@@ -32,6 +32,24 @@ case type
         end
       end
     end
+  when 'exhibition'
+    if (ARGV.size != 2) 
+      STDERR.puts "Usage: #{$0} type [CSV_path]"
+      STDERR.puts "CSV_path is required with type 'exhibition'"
+      exit 1
+    end
+    builder = Nokogiri::XML::Builder.new(:encoding => 'UTF-8') do |xml|
+      xml.pages do
+        CSV.foreach csvpath do |row|         
+          dcr_path = row[0]
+          url = row[1]
+          Prepmigrate.parse_dcr(dcr_path, url) do |dcr|
+            dcr.build xml
+          end
+        end
+      end
+    end
+    puts builder.to_xml
   when 'page',  'page_with_sidebar'
     if (ARGV.size != 2) 
       STDERR.puts "Usage: #{$0} type [CSV_path]"
@@ -57,6 +75,6 @@ case type
     puts builder.to_xml
   else
     STDERR.puts "Unknown type: \"#{type}\""
-    STDERR.puts "type must be one of 'page', 'page_with_sidebar', or 'factsheets'"
+    STDERR.puts "type must be one of 'page', 'page_with_sidebar', 'exhibition', or 'factsheets'"
     exit 1
 end

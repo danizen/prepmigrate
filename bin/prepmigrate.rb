@@ -40,12 +40,14 @@ case type
     end
     builder = Nokogiri::XML::Builder.new(:encoding => 'UTF-8') do |xml|
       xml.pages do
-        CSV.foreach csvpath do |row|         
+        CSV.foreach csvpath do |row|
           dcr_path = row[0]
           url = row[1]
           real_path = File.expand_path(dcr_path, File.dirname(csvpath))
-          Prepmigrate.parse_dcr(real_path, url) do |dcr|
-            dcr.build xml
+          xml.dcr do 
+            xml.filename { xml.text real_path }
+            xml.source { xml.text url }
+            Prepmigrate.parse_dcr(real_path, url).to_xml xml
           end
         end
       end

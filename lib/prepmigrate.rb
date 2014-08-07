@@ -1,6 +1,7 @@
 require "prepmigrate/version"
 require "prepmigrate/crawler"
 require "prepmigrate/page"
+require "prepmigrate/item_map"
 require "prepmigrate/dcr"
 
 module Prepmigrate

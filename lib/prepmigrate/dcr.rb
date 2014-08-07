@@ -4,6 +4,9 @@ require 'uri'
 module Prepmigrate
   class DCR
 
+    class TooManyValues < RuntimeError
+    end
+
     attr_reader :doc, :url
 
     def initialize (doc, url)
@@ -22,35 +25,14 @@ module Prepmigrate
       @alias
     end
 
-    def record
-      @record ||= doc.at_xpath("/record")
+    def items
+      @items ||= Prepmigrate::ItemMap.new doc.xpath("/record/item")
     end
 
-    def title
-      @title ||= record.at_xpath("item[@name='title']/value/text()")
-    end
-
-    def heading
-      @heading ||= record.at_xpath("item[@name='heading']/value/text()")
-    end
-
-    def subheading
-      unless @subheading
-        @subheading = nil
-        if (value = record.at_xpath("item[@name='subheading']/value"))
-          @subheading = value.content().gsub /<\/?[^>]+>/, ''
-        end
-      end
-      @subheading
-    end
-
-    def build (xml)
+    def to_xml (xml)
       xml.exhibition do
-        xml.source { xml.text url }
         xml.alias { xml.text mkalias }
-        xml.title { xml.text title }
-        xml.heading { xml.text heading }
-        xml.subheading { xml.text subheading }
+        items.to_xml xml
       end
     end
 

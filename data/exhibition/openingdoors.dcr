@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE record SYSTEM "dcr4.5.dtd">
+<record name="openingdoors.dcr" type="content"><item name="title"><value>Opening Doors: Contemporary African American Academic Surgeons</value></item><item name="heading"><value>Opening Doors:</value></item><item name="subheading"><value>&lt;em&gt;Contemporary African American Academic Surgeons&lt;/em&gt;</value></item><item name="permanence"><value><item name="date_issued"><value>2012-10-01</value></item>
+<item name="button_date_issued"><value>2012-10-01</value></item>
+<item name="no_button_date_issued"><value>2012-10-01</value></item>
+<item name="date_modified"><value>2014-02-07</value></item>
+<item name="date_expires"><value>2015-02-07</value></item>
+<item name="date_reviewed"><value>2014-02-07</value></item>
+<item name="contact_email"><value>hmdweb@nlm.nih.gov</value></item><item name="publisher"><value>U.S. National Library of Medicine</value></item>
+<item name="rights"><value>Public Domain</value></item>
+<item name="type"><value>Announcements, News</value></item><item name="level"><value>Permanent: Dynamic Content</value></item><item name="guarantor"><value>U.S. National Library of Medicine</value></item>
+<item name="subjectNtype"><value><item name="subject"><value/></item>
+<item name="subjectType"><value>Keyword</value></item></value></item>
+<item name="languages"><value><item name="language"><value>eng</value></item></value></item>
+<item name="previousversion"><value/></item>
+</value></item><item name="header"><value><item name="metadata"/>
+<item name="head"/>
+</value></item><item name="url"><value>http://www.nlm.nih.gov/exhibition/aframsurgeons/</value></item><item name="launchdate"><value>2007-02-01</value></item><item name="xmlfile"><value>/htdocs/hmd/about/exhibition/openingdoors.xml</value></item><item name="theme"><value>Patients and Practitioners</value></item><item name="Thumbnail"><value><item name="thumbnail"><value>/htdocs/hmd/about/exhibition/img/OD-mainThumb.jpg </value></item>
+<item name="thumbnailalt"><value>An African American doctor performing surgery</value></item>
+</value></item><item name="Logo"><value><item name="logo"><value>/htdocs/hmd/about/exhibition/img/OD-logo.jpg</value></item>
+<item name="logoalt"><value>Opening Doors: Contemporary African American Academic Surgeons</value></item>
+</value></item><item name="Headliner"><value><item name="headliner"><value>/htdocs/hmd/about/exhibition/img/OD-main.jpg</value></item>
+<item name="logoalt"><value>An African American doctor performing surgery</value></item>
+</value></item><item name="Education"><value><item name="resources"><value>/htdocs/hmd/about/exhibition/img/OD-edLt.jpg</value></item>
+<item name="resourcesalt"><value>Man in lab coat with model heart</value></item>
+<item name="resourcesRight"><value>/htdocs/hmd/about/exhibition/img/OD-edRt.jpg</value></item>
+<item name="resourcesaltRight"><value>Surgeons</value></item>
+</value></item><item name="curiousheader"><value><item name="curiousheader"><value/></item>
+<item name="curiousheaderalt"><value/></item>
+</value></item><item name="Traveling"><value><item name="traveling"><value>/htdocs/hmd/about/exhibition/img/ODbanner-exhibition.jpg</value></item>
+<item name="travelingalt"><value>Six colorful banners</value></item>
+<item name="traveling2"><value>/htdocs/hmd/about/exhibition/img/ODbanner-installation.jpg</value></item>
+<item name="travelingalt2"><value>Onlookers admiring installed banners</value></item>
+</value></item><item name="exhibitionspecifications"><value><item name="type"><value>Banner</value></item><item name="typeother"><value> </value></item>
+<item name="Content"><value>Six banners and structure,&lt;br/&gt;
+Each banner 7 ft. h x 3 ft. W</value></item>
+<item name="Size"><value>500-700 sq. ft.</value></item>
+<item name="Packing"><value>Exhibition is packed in two&lt;br/&gt;
+plastic wheeled graphics tube.&lt;br/&gt;
+46 in. H x 19 in. W
+</value></item>
+<item name="Shipping"><value>One-way - cost estimate&lt;br/&gt;
+$200-$500</value></item>
+<item name="bookingperiod"><value>6 weeks</value></item>
+</value></item><item name="summary"><value>&lt;p&gt;&lt;strong&gt;As physicians, healers, midwives, or “root doctors,” African Americans have always practiced medicine.&lt;/strong&gt; Early black physicians not only became skilled practitioners, they became educators and trailblazers, paving the way for future physicians, surgeons, and nurses and opening doors to better health care for African American communities. &lt;a href=http://www.nlm.nih.gov/exhibition/aframsurgeons/ target="_blank"&gt;&lt;i&gt;Opening Doors: Contemporary African American Academic Surgeons&lt;/i&gt;&lt;/a&gt; recognizes the achievements of these pioneers by examining this long tradition, and highlights contemporary surgeons and educators who exemplify excellence in their fields and who continue the practice of mentoring younger generations of African American physicians.&lt;/p&gt;
+
+&lt;p&gt;Developed in collaboration with The Reginald F. Lewis Museum of Maryland African American History and Culture, &lt;a href=http://www.nlm.nih.gov/exhibition/aframsurgeons/ target="_blank"&gt;&lt;i&gt;Opening Doors&lt;/i&gt;&lt;/a&gt; became available as a traveling exhibition free of charge to interested libraries and cultural centers in June 2007. Please go to &lt;a href=http://www.nlm.nih.gov/hmd/about/exhibition/openingdoors-bookinfo.html&gt;Book a Traveling Exhibition&lt;/a&gt; for more information or visit the &lt;a href=http://www.nlm.nih.gov/exhibition/aframsurgeons/ target="_blank"&gt;online exhibition&lt;/a&gt; to learn more about pioneers in health care.&lt;/p&gt;</value></item><item name="traveling"><value>&lt;p&gt;&lt;strong&gt;The role of African Americans as health care providers in the history of medicine is a story often overlooked.&lt;/strong&gt; Yet, as physicians, healers, midwives, or “root doctors,” African Americans have always practiced medicine. Early black physicians not only became skilled practitioners, but also educators and trailblazers, paving the way for future physicians, surgeons, and nurses and opening doors to better health care for African American communities. &lt;a href=http://www.nlm.nih.gov/exhibition/aframsurgeons/ target="_blank"&gt;&lt;i&gt;Opening Doors: Contemporary African American Academic Surgeons&lt;/i&gt;&lt;/a&gt; recognizes the achievements of these pioneers by examining this long tradition and highlighting contemporary surgeons and educators who exemplify excellence in their fields.&lt;/p&gt;</value></item><item name="itinerarydate"><value>2007-08-01</value></item><item name="travelexhibitionpdf"><value><item name="pdfentry"><value><item name="content"><value>Exhibition Shipping Instructions</value></item>
+<item name="file"><value>http://www.nlm.nih.gov/hmd/about/exhibition/travelingexhibitions/pdf/openingdoorsshipping.pdf</value></item>
+</value></item>
+</value><value><item name="pdfentry"><value><item name="content"><value>Exhibition Featured Surgeons</value></item>
+<item name="file"><value>http://www.nlm.nih.gov/hmd/about/exhibition/travelingexhibitions/pdf/surgeons.pdf</value></item>
+</value></item>
+</value><value><item name="pdfentry"><value><item name="content"><value>Exhibition PR Information</value></item>
+<item name="file"><value>http://www.nlm.nih.gov/hmd/about/exhibition/travelingexhibitions/pdf/opendoorsinfosheet.pdf</value></item>
+</value></item>
+</value><value><item name="pdfentry"><value><item name="content"><value>Exhibition Brochure</value></item>
+<item name="file"><value>http://www.nlm.nih.gov/hmd/about/exhibition/travelingexhibitions/pdf/openingbrochure.pdf</value></item>
+</value></item>
+</value><value><item name="pdfentry"><value><item name="content"><value>Exhibition Children's Guide </value></item>
+<item name="file"><value>http://www.nlm.nih.gov/hmd/about/exhibition/travelingexhibitions/pdf/opendoorschild.pdf</value></item>
+</value></item>
+</value><value><item name="pdfentry"><value><item name="content"><value>Traveling Exhibition Host Survey</value></item>
+<item name="file"><value>http://www.nlm.nih.gov/hmd/about/exhibition/travelingexhibitions/pdf/Traveling_Exhibition_Host_Survey.pdf</value></item>
+</value></item>
+</value><value><item name="pdfentry"><value><item name="content"><value>Exhibition Website</value></item>
+<item name="file"><value>http://www.nlm.nih.gov/exhibition/aframsurgeons/</value></item>
+</value></item>
+</value><value><item name="pdfentry"><value><item name="content"><value>Exhibition Installation Video</value></item>
+<item name="file"><value>http://www.nlm.nih.gov/hmd/about/exhibition/travelingexhibitions/installationvideo.html</value></item>
+</value></item>
+</value></item><item name="educationresources"><value><item name="resource"><value><item name="title"><value>Opening Doors:</value></item>
+<item name="subtitle"><value>Contemporary African American Academic Surgeons</value></item>
+<item name="url"><value>http://www.nlm.nih.gov/hmd/about/exhibition/travelingexhibitions/pdf/opendoorschild.pdf</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/ODoors_OR_1.jpg</value></item>
+<item name="imagealt"><value>Close-up photograph of an African American surgeon performing surgery</value></item>
+<item name="type"><value>Other Resources</value></item><item name="level"><value>Elementary</value></item><item name="subject"><value>History and Social Studies</value></item><item name="grade"><value>3-5 Grades</value></item>
+<item name="subtype"><value>Other</value></item><item name="subtypeother"><value>Exhibition Children’s Guide </value></item>
+<item name="author"><value/></item>
+</value></item>
+</value></item><item name="mediaresources"/></record>

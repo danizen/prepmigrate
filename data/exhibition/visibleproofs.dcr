@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE record SYSTEM "dcr4.5.dtd">
+<record name="visibleproofs.dcr" type="content"><item name="title"><value>Visible Proofs: Forensic Views of the Body</value></item><item name="heading"><value>Visible Proofs:</value></item><item name="subheading"><value>&lt;em&gt;Forensic Views of the Body&lt;/em&gt;</value></item><item name="permanence"><value><item name="date_issued"><value>2012-10-01</value></item>
+<item name="button_date_issued"><value>2012-10-01</value></item>
+<item name="no_button_date_issued"><value>2012-10-01</value></item>
+<item name="date_modified"><value>2014-01-16</value></item>
+<item name="date_expires"><value>2015-01-16</value></item>
+<item name="date_reviewed"><value>2014-01-16</value></item>
+<item name="contact_email"><value>hmdweb@nlm.nih.gov</value></item><item name="publisher"><value>U.S. National Library of Medicine</value></item>
+<item name="rights"><value>Public Domain</value></item>
+<item name="type"><value>Announcements, News</value></item><item name="level"><value>Permanence Not Guaranteed</value></item><item name="guarantor"><value>U.S. National Library of Medicine</value></item>
+<item name="subjectNtype"><value><item name="subject"><value/></item>
+<item name="subjectType"><value>Keyword</value></item></value></item>
+<item name="languages"><value><item name="language"><value>eng</value></item></value></item>
+<item name="previousversion"><value/></item>
+</value></item><item name="header"><value><item name="metadata"/>
+<item name="head"/>
+</value></item><item name="url"><value>http://www.nlm.nih.gov/visibleproofs/</value></item><item name="launchdate"><value>2006-02-16</value></item><item name="xmlfile"><value/></item><item name="theme"><value>Technology of Medicine</value></item><item name="Thumbnail"><value><item name="thumbnail"><value>/htdocs/hmd/about/exhibition/img/VP-mainThumb.jpg</value></item>
+<item name="thumbnailalt"><value>Historical photograph of a man sitting in a room with multiple mirrors and a complex camera equipment set-up</value></item>
+</value></item><item name="Logo"><value><item name="logo"><value>/htdocs/hmd/about/exhibition/img/VP-logo.jpg</value></item>
+<item name="logoalt"><value>Visible Proofs: Forensic Views of the Body</value></item>
+</value></item><item name="Headliner"><value><item name="headliner"><value>/htdocs/hmd/about/exhibition/img/VP-main.jpg</value></item>
+<item name="logoalt"><value>Historical photograph of a man sitting in a room with multiple mirrors and a complex camera equipment set-upa</value></item>
+</value></item><item name="Education"><value><item name="resources"><value>/htdocs/hmd/about/exhibition/img/VP-edLt.jpg</value></item>
+<item name="resourcesalt"><value>Fly on a stick</value></item>
+<item name="resourcesRight"><value>/htdocs/hmd/about/exhibition/img/VP-edRt.jpg</value></item>
+<item name="resourcesaltRight"><value>Image of a human skull</value></item>
+</value></item><item name="curiousheader"><value><item name="curiousheader"><value>/htdocs/hmd/about/exhibition/img/VP-curious.jpg</value></item>
+<item name="curiousheaderalt"><value>Chroma-lithograph of a cadaver</value></item>
+</value></item><item name="Traveling"><value><item name="traveling"><value/></item>
+<item name="travelingalt"><value/></item>
+<item name="traveling2"><value/></item>
+<item name="travelingalt2"><value/></item>
+</value></item><item name="exhibitionspecifications"><value><item name="type"><value>Banner</value></item><item name="typeother"><value> </value></item>
+<item name="Content"><value>Six banners and structure,&lt;br/&gt;
+Each banner 7 ft. h x 3 ft. W</value></item>
+<item name="Size"><value>500-700 sq. ft.</value></item>
+<item name="Packing"><value>Exhibition is packed in two&lt;br/&gt;
+plastic wheeled graphics tube.&lt;br/&gt;
+46 in. H x 19 in. W
+</value></item>
+<item name="Shipping"><value>Incoming - cost estimate&lt;br/&gt;
+$200-$500</value></item>
+<item name="bookingperiod"><value>6 weeks</value></item>
+</value></item><item name="summary"><value>&lt;p&gt;&lt;strong&gt;We, the living, instinctively recoil in the presence of death.&lt;/strong&gt; Whether the deceased is a beloved, a friend, or a stranger, the shock of death’s finality registers. When a life is unexpectedly extinguished, we need answers and seek the cause. Today, this need is addressed in police investigations, laboratories, courtrooms, and in the place where scientific medicine interacts with the law—the field of forensics. &lt;a href=http://www.nlm.nih.gov/visibleproofs/ target="_blank"&gt;&lt;i&gt;Visible Proofs: Forensic Views of the Body&lt;/i&gt;&lt;/a&gt; explores the history of forensic medicine and the physicians, surgeons, and other professionals who have struggled to develop scientific methods that translate views of bodies into “visible proofs” that can persuade judges, juries, and the public. &lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=http://www.nlm.nih.gov/visibleproofs/ target="_blank"&gt;online&lt;/a&gt; exhibition features a range of &lt;a href=http://www.nlm.nih.gov/visibleproofs/education/ target="_blank"&gt;resources&lt;/a&gt; for educators and students, including lesson plans developed by classroom teachers for middle and high school learners, educational online activities, and additional resources.&lt;/p&gt;
+
+&lt;p&gt;In 2007, the American Association of Museums Media and Technology Committee presented a MUSE Award to &lt;i&gt;Visible Proofs: Forensic Views of the Body&lt;/i&gt; for exhibition multimedia.&lt;/p&gt;
+</value></item><item name="traveling"><value/></item><item name="itinerarydate"><value/></item><item name="travelexhibitionpdf"/><item name="educationresources"><value><item name="resource"><value><item name="title"><value>Measurable You!</value></item>
+<item name="subtitle"><value> </value></item>
+<item name="url"><value>http://www.nlm.nih.gov/visibleproofs/education/measure/index.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/VP_LP_MY.jpg</value></item>
+<item name="imagealt"><value>Historical photograph of a hand and forearm being measured</value></item>
+<item name="type"><value>Lesson Plans</value></item><item name="level"><value>Middle School</value><value>High School</value></item><item name="subject"><value>History and Social Studies</value><value>Science and Technology</value></item><item name="grade"><value>6-11 Grades</value></item>
+<item name="subtype"><value>Other</value></item><item name="subtypeother"><value>Lesson Plan</value></item>
+<item name="author"><value/></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>Entomology in Action</value></item>
+<item name="subtitle"><value> </value></item>
+<item name="url"><value>http://www.nlm.nih.gov/visibleproofs/education/entomology/index.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/VP-LP-EiA-edThumb.jpg</value></item>
+<item name="imagealt"><value>Fly on a stick</value></item>
+<item name="type"><value>Lesson Plans</value></item><item name="level"><value>Middle School</value><value>High School</value></item><item name="subject"><value>Science and Technology</value></item><item name="grade"><value>6-12 Grades</value></item>
+<item name="subtype"><value>Other</value></item><item name="subtypeother"><value>Lesson Plan</value></item>
+<item name="author"><value/></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>DNA—Molecular Identity</value></item>
+<item name="subtitle"><value> </value></item>
+<item name="url"><value>http://www.nlm.nih.gov/visibleproofs/education/dna/index.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/VP-lLP-DNAaMI-edThumb.jpg</value></item>
+<item name="imagealt"><value>Silhouette of a hand on translucent paper with black markings</value></item>
+<item name="type"><value>Lesson Plans</value></item><item name="level"><value>High School</value></item><item name="subject"><value>Science and Technology</value></item><item name="grade"><value>10-12 Grades</value></item>
+<item name="subtype"><value>Other</value></item><item name="subtypeother"><value>Lesson Plan</value></item>
+<item name="author"><value/></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>Medical Views</value></item>
+<item name="subtitle"><value> </value></item>
+<item name="url"><value>http://www.nlm.nih.gov/visibleproofs/education/medical/index.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/VP-OA-MV-edThumb.jpg</value></item>
+<item name="imagealt"><value>Drawing of a brain</value></item>
+<item name="type"><value>Online Activities</value></item><item name="level"><value>High School</value></item><item name="subject"><value>Science and Technology</value></item><item name="grade"><value>9-12 Grades</value></item>
+<item name="subtype"><value>Reflection exercise</value></item><item name="subtypeother"><value> </value></item>
+<item name="author"><value/></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>Anthropological Views</value></item>
+<item name="subtitle"><value> </value></item>
+<item name="url"><value>http://www.nlm.nih.gov/visibleproofs/education/anthropological/index.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/VP-OA-AV-edThumb.jpg</value></item>
+<item name="imagealt"><value>Photograph of a skull with a hole in the forehead</value></item>
+<item name="type"><value>Online Activities</value></item><item name="level"><value>Middle School</value><value>High School</value></item><item name="subject"><value>Science and Technology</value></item><item name="grade"><value>6-10 Grades</value></item>
+<item name="subtype"><value>Reflection exercise</value></item><item name="subtypeother"><value> </value></item>
+<item name="author"><value/></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>Technological Views</value></item>
+<item name="subtitle"><value> </value></item>
+<item name="url"><value>http://www.nlm.nih.gov/visibleproofs/education/technological/index.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/VP-OA-V1-edThumb.jpg</value></item>
+<item name="imagealt"><value>X-ray image of a skull</value></item>
+<item name="type"><value>Online Activities</value></item><item name="level"><value>High School</value></item><item name="subject"><value>History and Social Studies</value><value>Science and Technology</value></item><item name="grade"><value>9-12 Grades</value></item>
+<item name="subtype"><value>Reflection exercise</value></item><item name="subtypeother"><value> </value></item>
+<item name="author"><value/></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>Visible Proofs:</value></item>
+<item name="subtitle"><value>Forensic Views of the Body</value></item>
+<item name="url"><value>http://www.nlm.nih.gov/visibleproofs/resources/bibliography.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/VP-OR-edThumb.jpg</value></item>
+<item name="imagealt"><value>Silhouette of a person on a blue background with abstract lights</value></item>
+<item name="type"><value>Other Resources</value></item><item name="level"><value>Elementary</value><value>Middle School</value><value>High School</value></item><item name="subject"><value>Literature</value><value>Science and Technology</value></item><item name="grade"><value>3-12 Grades</value></item>
+<item name="subtype"><value>Other</value></item><item name="subtypeother"><value>Suggested Readings</value></item>
+<item name="author"><value/></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>Visible Proofs:</value></item>
+<item name="subtitle"><value>Forensic Views of the Body</value></item>
+<item name="url"><value>http://www.nlm.nih.gov/visibleproofs/resources/interviews.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/VP-OR-edThumb.jpg</value></item>
+<item name="imagealt"><value>Silhouette of a person on a blue background with abstract lights</value></item>
+<item name="type"><value>Other Resources</value></item><item name="level"><value>High School</value><value>College and University</value></item><item name="subject"><value>History and Social Studies</value><value>Science and Technology</value></item><item name="grade"><value>9-College/University</value></item>
+<item name="subtype"><value>Other</value></item><item name="subtypeother"><value>Radio Interviews</value></item>
+<item name="author"><value/></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>Visible Proofs:</value></item>
+<item name="subtitle"><value>Forensic Views of the Body</value></item>
+<item name="url"><value>http://www.nlm.nih.gov/visibleproofs/resources/weblinks.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/VP-OR-edThumb.jpg</value></item>
+<item name="imagealt"><value>Silhouette of a person on a blue background with abstract lights</value></item>
+<item name="type"><value>Other Resources</value></item><item name="level"><value>Elementary</value><value>Middle School</value><value>High School</value><value>College and University</value></item><item name="subject"><value>Literature</value><value>Science and Technology</value></item><item name="grade"><value>K-College/University</value></item>
+<item name="subtype"><value>Other</value></item><item name="subtypeother"><value>Online Resources</value></item>
+<item name="author"><value/></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>Visible Proofs:</value></item>
+<item name="subtitle"><value>Forensic Views of the Body</value></item>
+<item name="url"><value>http://www.nlm.nih.gov/visibleproofs/galleries/</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/VP-OR-edThumb.jpg</value></item>
+<item name="imagealt"><value>Silhouette of a person on a blue background with abstract lights</value></item>
+<item name="type"><value>Other Resources</value></item><item name="level"><value>High School</value><value>College and University</value></item><item name="subject"><value>History and Social Studies</value><value>Science and Technology</value></item><item name="grade"><value>9-College/University</value></item>
+<item name="subtype"><value>Other</value></item><item name="subtypeother"><value>Media Gallery</value></item>
+<item name="author"><value/></item>
+</value></item>
+</value></item><item name="mediaresources"><value><item name="resource"><value><item name="title"><value>Cadaver buried February 7, 1828, and exhumed April 24, 1828, 1831</value></item>
+<item name="url"><value>http://www.nlm.nih.gov/visibleproofs/galleries/exhibition/body_image_28.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/cadaver-curious-lg.jpg</value></item>
+<item name="imagealt"><value>Chromolithograph of a cadaver</value></item>
+<item name="thumbnail"><value>/htdocs/hmd/about/exhibition/img/cadaver-curious.jpg</value></item>
+<item name="thumbnailalt"><value>Chromolithograph of a cadaver</value></item>
+<item name="type"><value>Image</value></item><item name="tags"><value>Chromolithograph</value></item><item name="description"><value>French artist Jacques Hippolyte van der Burch (1786-1856) represented the effects of putrefactive changes produced in cadavers when exposed to earth, water, air, and fumigation, in a series of chromolithographs that appear in the 1831 treatise on the subject of exhumation and decomposition by Mathieu J. B. Orfila, MD (1787-1853) and Octave Lesueur, MD (1802-1860) titled &lt;i&gt;Traité des exhumations juridiques.&lt;/i&gt; [&lt;i&gt;Treatise on legal exhumations, and considerations on the physical transformations undergone by cadavers rotting in the earth, in water, in toilets and in manure&lt;/i&gt;], Paris, 1831. To learn more about the history of forensic science, visit the online exhibition &lt;a href=http://www.nlm.nih.gov/visibleproofs/galleries/exhibition/body_image_28.html target="_blank"&gt;&lt;i&gt;Visible Proofs: Forensic Views of the Body&lt;/i&gt;&lt;/a&gt;. </value></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>Mathieu Joseph Bonaventure Orfila, ca. 1835</value></item>
+<item name="url"><value>http://www.nlm.nih.gov/visibleproofs/galleries/biographies/orfila.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/orfila-curious-lg.jpg</value></item>
+<item name="imagealt"><value>Portrait of Mathieu Orfila</value></item>
+<item name="thumbnail"><value>/htdocs/hmd/about/exhibition/img/orfila-curious.jpg</value></item>
+<item name="thumbnailalt"><value>Portrait of Mathieu Orfila</value></item>
+<item name="type"><value>Image</value></item><item name="tags"><value>Biography</value></item><item name="description"><value>Spanish born, French chemist Mathieu Joseph Bonaventure Orfila, MD (1787-1853) was the first 19th-century exponent of forensic medicine, and is often called the "Father of Toxicology." Dr. Orfila worked to make chemical analysis a routine part of forensic investigation. His work included studies of asphyxiation, the decomposition of bodies, and exhumation. This representation of a lithograph portrait shows a decorated and richly adorned Dr. Orphila.To learn more about the history of forensic science, visit the online exhibition &lt;a href=http://www.nlm.nih.gov/visibleproofs/galleries/biographies/orfila.html target="_blank"&gt;&lt;i&gt;Visible Proofs: Forensic Views of the Body&lt;/i&gt;&lt;/a&gt;.</value></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>Postmortem dissection, 1978</value></item>
+<item name="url"><value>http://www.nlm.nih.gov/visibleproofs/galleries/media/autopsy/index.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/autopsy-curious-lg.jpg</value></item>
+<item name="imagealt"><value>Still frame from a video of a postmortem examination</value></item>
+<item name="thumbnail"><value>/htdocs/hmd/about/exhibition/img/autopsy-curious.jpg</value></item>
+<item name="thumbnailalt"><value>Still frame from a video of a postmortem examination</value></item>
+<item name="type"><value>Video</value></item><item name="tags"><value>Forensics</value></item><item name="description"><value>&lt;strong&gt;&lt;span style="color:#DA2300;"&gt;ALERT: Some people may find images from postmortem dissections disturbing. Viewer discretion advised.&lt;/span&gt;&lt;/strong&gt;
+
+Postmortem dissection, or autopsy, is the core practice of forensic medicine and was among the first scientific methods developed to be used in the investigation of violent or suspicious death. The postmortem examiner surveys the cadaver's surface, opens up the figure with surgical instruments, removes organs and body parts for microscopic inspection and toxicological analysis, and makes a report that attempts to reconstruct the cause, manner, and mechanism of death. These clips from training film show some of the procedures of postmortem examination. To learn more about the history of forensic science, visit the online exhibition &lt;a href=http://www.nlm.nih.gov/visibleproofs/galleries/media/autopsy/index.html target="_blank"&gt;&lt;i&gt;Visible Proofs: Forensic Views of the Body&lt;/i&gt;&lt;/a&gt;.</value></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>Clyde Snow: Bearing Witness, 2008</value></item>
+<item name="url"><value>http://www.nlm.nih.gov/visibleproofs/galleries/media/witness/index.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/witness-curious-lg.jpg</value></item>
+<item name="imagealt"><value>Photograph of a reconstructed skull</value></item>
+<item name="thumbnail"><value>/htdocs/hmd/about/exhibition/img/witness-curious.jpg</value></item>
+<item name="thumbnailalt"><value>Photograph of a reconstructed skull</value></item>
+<item name="type"><value>Video</value></item><item name="tags"><value>Forensics</value></item><item name="description"><value>In 1984, after the fall of the military junta in Argentina, the American Academy for the Advancement of Science asked American forensic anthropologist Clyde Snow, PhD (b. 1928) to travel to the country to help the newly elected democratic government find out what happened to the thousands of the "disappeared" Argentinean citizens kidnapped and presumed murdered by the military dictatorship.
+In Argentina, Dr. Snow trained a group of volunteer anthropology and medical university students in forensic anthropology. Together they excavated hundreds of clandestine mass graves. The work was painstaking and dangerous as the disposed junta could regain power and retaliate against the investigators. Nevertheless, Dr. Snow and his team of students became instrumental in providing evidence that led to the successful prosecution of six members of the junta for their crimes. 
+These students went on to found the Argentine Forensic Anthropology Team (in Spanish, Equipo Argentino de Anthropologia Forense or EAAF), a non-governmental organization dedicated to using forensic science to investigate human rights abuses. In this series of short films produced by the National Library of Medicine for the exhibition &lt;a href=http://www.nlm.nih.gov/visibleproofs/galleries/media/witness/index.html target="_blank"&gt;&lt;i&gt;Visible Proofs: Forensic Views of the Body&lt;/i&gt;&lt;/a&gt;, Dr. Snow talks about forensic anthropology and human rights.
+</value></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>A True Relation of a Barbarous Bloody Murther, ca. 1688</value></item>
+<item name="url"><value>http://www.nlm.nih.gov/visibleproofs/galleries/artifacts/murther.html </value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/murther-curious-lg.jpg</value></item>
+<item name="imagealt"><value>A True Relation of a Barbarous Bloody Murther, Committed by Philip Standsfield upon the Perfon of Sir James Standsfield his Father. Giving An account of the many inhuman practices and...</value></item>
+<item name="thumbnail"><value>/htdocs/hmd/about/exhibition/img/murther-curious.jpg</value></item>
+<item name="thumbnailalt"><value>A True Relation of a Barbarous Bloody Murther, Committed by Philip Standsfield upon the Perfon of Sir James Standsfield his Father. Giving An account of the many inhuman practices and...</value></item>
+<item name="type"><value>Document</value></item><item name="tags"><value>Forensics</value></item><item name="description"><value>This sensational pamphlet reports on a murder investigation that used a forensic test based on an ancient belief: that the corpse of a victim will bleed if touched by the murderer. To learn more about the history of forensic science, visit the online exhibition &lt;a href=http://www.nlm.nih.gov/visibleproofs/galleries/artifacts/murther.html target="_blank"&gt;&lt;i&gt;Visible Proofs: Forensic Views of the Body&lt;/i&gt;&lt;/a&gt;. </value></item>
+</value></item>
+</value></item></record>

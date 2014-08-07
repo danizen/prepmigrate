@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE record SYSTEM "dcr4.5.dtd">
+<record name="avoyagetohealth.dcr" type="content"><item name="title"><value>A Voyage to Health</value></item><item name="heading"><value>A Voyage to Health</value></item><item name="subheading"><value/></item><item name="permanence"><value><item name="date_issued"><value>2012-10-01</value></item>
+<item name="button_date_issued"><value>2013-07-01</value></item>
+<item name="no_button_date_issued"><value>2012-10-01</value></item>
+<item name="date_modified"><value>2014-02-07</value></item>
+<item name="date_expires"><value>2015-02-07</value></item>
+<item name="date_reviewed"><value>2014-02-07</value></item>
+<item name="contact_email"><value>hmdweb@nlm.nih.gov</value></item><item name="publisher"><value>U.S. National Library of Medicine</value></item>
+<item name="rights"><value>Public Domain</value></item>
+<item name="type"><value>Announcements, News</value></item><item name="level"><value>Permanence Not Guaranteed</value></item><item name="guarantor"><value>U.S. National Library of Medicine</value></item>
+<item name="subjectNtype"><value><item name="subject"><value/></item>
+<item name="subjectType"><value>Keyword</value></item></value></item>
+<item name="languages"><value><item name="language"><value>eng</value></item></value></item>
+<item name="previousversion"><value/></item>
+</value></item><item name="header"><value><item name="metadata"/>
+<item name="head"/>
+</value></item><item name="url"><value>http://www.nlm.nih.gov/exhibition/avoyagetohealth/</value></item><item name="launchdate"><value>2010-10-02</value></item><item name="xmlfile"><value>/htdocs/hmd/about/exhibition/avoyagetohealth.xml</value></item><item name="theme"><value>Science and Society</value></item><item name="Thumbnail"><value><item name="thumbnail"><value>/htdocs/hmd/about/exhibition/img/AVH-mainThumb.jpg</value></item>
+<item name="thumbnailalt"><value>Ship with orange sails on the water</value></item>
+</value></item><item name="Logo"><value><item name="logo"><value>/htdocs/hmd/about/exhibition/img/AVH-logo.jpg</value></item>
+<item name="logoalt"><value>A Voyage to Health: An exhibition about the revival of Native Hawaiian Traditions</value></item>
+</value></item><item name="Headliner"><value><item name="headliner"><value>/htdocs/hmd/about/exhibition/img/AVH-main.jpg</value></item>
+<item name="logoalt"><value>Ship with orange sails on the water</value></item>
+</value></item><item name="Education"><value><item name="resources"><value>/htdocs/hmd/about/exhibition/img/AVH-edLt.jpg</value></item>
+<item name="resourcesalt"><value>People rowing a canoe</value></item>
+<item name="resourcesRight"><value>/htdocs/hmd/about/exhibition/img/AVH-edRt.jpg</value></item>
+<item name="resourcesaltRight"><value>Photograph of people gathered by a body of water watching ships</value></item>
+</value></item><item name="curiousheader"><value><item name="curiousheader"><value>/htdocs/hmd/about/exhibition/img/curious-hokulea.jpg</value></item>
+<item name="curiousheaderalt"><value>Boat with orange sails on the sea</value></item>
+</value></item><item name="Traveling"><value><item name="traveling"><value>/htdocs/hmd/about/exhibition/img/AVH-exhibition.jpg</value></item>
+<item name="travelingalt"><value>Six panels with ocean theme</value></item>
+<item name="traveling2"><value>/htdocs/hmd/about/exhibition/img/AVH-installation.jpg</value></item>
+<item name="travelingalt2"><value>Six panels with ocean theme</value></item>
+</value></item><item name="exhibitionspecifications"><value><item name="type"><value>Banner</value></item><item name="typeother"><value> </value></item>
+<item name="Content"><value>Six banners and structure,&lt;br/&gt;
+Each banner 7 ft. h x 3 ft. W</value></item>
+<item name="Size"><value>500-700 sq. ft.</value></item>
+<item name="Packing"><value>Exhibition is packed in two&lt;br/&gt;
+plastic wheeled graphics tube.&lt;br/&gt;
+46 in. H x 19 in. W
+</value></item>
+<item name="Shipping"><value>One-way - cost estimate&lt;br/&gt;
+$200-$500</value></item>
+<item name="bookingperiod"><value>6 weeks</value></item>
+</value></item><item name="summary"><value>&lt;p&gt;&lt;strong&gt;&lt;em&gt;A Voyage to Health&lt;/em&gt; explores the history of Kaho‘olawe and traditional voyaging, and how the resurgence of Native Hawaiian culture helped heal the soul of the community.&lt;/strong&gt; Around the year 400, migrating voyagers from the South Pacific began to settle on the island of Kaho‘olawe. Over the centuries, the island became a navigational hub for the region and a sacred site. When European colonizers and missionaries invaded, they threatened the ecological balance of the island. Following World War II, the United States military seized Kaho‘olawe for bombing exercises.&lt;/p&gt;
+
+&lt;p&gt;In 1976, as part of a wider campaign by Native Hawaiians to reclaim their rights and traditions, members of the Hawaii Movement formed Protect Kaho‘olawe ‘Ohana (PKO) and recaptured the island. Soon after, Native Hawaiians reintroduced the lost art of long distance voyaging, leading to a revival of traditional voyaging arts in Hawai'i and Polynesia. Because of the success of these actions, voyaging now serves as a powerful model for other efforts to improve the health of Native Hawaiians through the revitalization of cultural traditions.&lt;/p&gt;
+
+&lt;p&gt;Beginning in October 2010, &lt;i&gt;A Voyage to Health&lt;/i&gt;  became available as a traveling exhibition free of charge to interested libraries and cultural centers. Please go to &lt;a href=http://www.nlm.nih.gov/hmd/about/exhibition/avoyagetohealth-bookinfo.html&gt;Book a Traveling Exhibition&lt;/a&gt; for more information.&lt;/p&gt;
+</value></item><item name="traveling"><value>&lt;p&gt;&lt;strong&gt;&lt;i&gt;A Voyage to Health&lt;/i&gt; explores the history of Kaho‘olawe and traditional voyaging,&lt;/strong&gt; and how the resurgence of Native Hawaiian culture helped heal the soul of the community. &lt;/p&gt;</value></item><item name="itinerarydate"><value>2010-10-18</value></item><item name="travelexhibitionpdf"><value><item name="pdfentry"><value><item name="content"><value>Exhibition Basic Information</value></item>
+<item name="file"><value>http://www.nlm.nih.gov/hmd/about/exhibition/travelingexhibitions/pdf/voyagingbasicinfo.pdf</value></item>
+</value></item>
+</value><value><item name="pdfentry"><value><item name="content"><value>Exhibition Shipping Instructions</value></item>
+<item name="file"><value>http://www.nlm.nih.gov/hmd/about/exhibition/travelingexhibitions/pdf/voyageshipping.pdf</value></item>
+</value></item>
+</value><value><item name="pdfentry"><value><item name="content"><value>Exhibition Brochure</value></item>
+<item name="file"><value>http://www.nlm.nih.gov/hmd/about/exhibition/travelingexhibitions/pdf/voyagingbrochure.pdf</value></item>
+</value></item>
+</value><value><item name="pdfentry"><value><item name="content"><value>Exhibition Poster</value></item>
+<item name="file"><value>http://www.nlm.nih.gov/hmd/about/exhibition/travelingexhibitions/pdf/voyagingposter.pdf</value></item>
+</value></item>
+</value><value><item name="pdfentry"><value><item name="content"><value>Traveling Exhibition Host Survey</value></item>
+<item name="file"><value>http://www.nlm.nih.gov/hmd/about/exhibition/travelingexhibitions/pdf/Traveling_Exhibition_Host_Survey.pdf </value></item>
+</value></item>
+</value><value><item name="pdfentry"><value><item name="content"><value>Exhibition Installation Video</value></item>
+<item name="file"><value>http://www.nlm.nih.gov/hmd/about/exhibition/travelingexhibitions/installationvideo.html</value></item>
+</value></item>
+</value></item><item name="educationresources"><value><item name="resource"><value><item name="title"><value>Healing Elements:</value></item>
+<item name="subtitle"><value>A Native Hawaiian Perspective</value></item>
+<item name="url"><value>http://www.nlm.nih.gov/exhibition/avoyagetohealth/education/higher-education.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/VH-HE-Mod-edThumb.jpg</value></item>
+<item name="imagealt"><value>People gathered by a body of water watching ships sailing</value></item>
+<item name="type"><value>Higher Education Modules</value></item><item name="level"><value>College and University</value></item><item name="subject"><value>Health Education</value><value>History and Social Studies</value></item><item name="grade"><value>College/University</value></item>
+<item name="subtype"><value>Other</value></item><item name="subtypeother"><value>Higher Education Module</value></item>
+<item name="author"><value>Davianna Pomaika'i McGregor, PhD</value></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>Activism and Healing:</value></item>
+<item name="subtitle"><value>Kanaloa Kaho‘olawe, a Hawaiian Island</value></item>
+<item name="url"><value>http://www.nlm.nih.gov/exhibition/avoyagetohealth/education/lesson-plans.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/VH-LP-Activism-EdThumb.jpg</value></item>
+<item name="imagealt"><value>Several people gathered together.</value></item>
+<item name="type"><value>Lesson Plans</value></item><item name="level"><value>Elementary</value><value>Middle School</value></item><item name="subject"><value>History and Social Studies</value></item><item name="grade"><value>5-8 Grades</value></item>
+<item name="subtype"><value>Other</value></item><item name="subtypeother"><value>Lesson Plan</value></item>
+<item name="author"><value/></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>Hawaiian Archipelago and Star Compass</value></item>
+<item name="subtitle"><value/></item>
+<item name="url"><value>http://www.nlm.nih.gov/exhibition/avoyagetohealth/education/lesson-plans2.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/VH-LP-Star-EdThumb.jpg</value></item>
+<item name="imagealt"><value>The Hawaiian Islands, as seen from a map</value></item>
+<item name="type"><value>Lesson Plans</value></item><item name="level"><value>Elementary</value></item><item name="subject"><value>History and Social Studies</value><value>Science and Technology</value></item><item name="grade"><value>4-6 Grades</value></item>
+<item name="subtype"><value>Other</value></item><item name="subtypeother"><value>Lesson Plan</value></item>
+<item name="author"><value/></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>Hawaiian Perspectives on Health</value></item>
+<item name="subtitle"><value/></item>
+<item name="url"><value>http://www.nlm.nih.gov/exhibition/avoyagetohealth/education/online.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/VH-OA-Perspectives-EdThumb.jpg</value></item>
+<item name="imagealt"><value>Woman with foliage in the background</value></item>
+<item name="type"><value>Online Activities</value></item><item name="level"><value>High School</value><value>College and University</value></item><item name="subject"><value>History and Social Studies</value></item><item name="grade"><value>10-College/University</value></item>
+<item name="subtype"><value>Interactive exercise</value></item><item name="subtypeother"><value> </value></item>
+<item name="author"><value/></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>A Voyage to Health</value></item>
+<item name="subtitle"><value/></item>
+<item name="url"><value>http://www.nlm.nih.gov/exhibition/avoyagetohealth/education/resources.html#k12readings</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/VH-OR-EdThumb.jpg</value></item>
+<item name="imagealt"><value>Aerial view of an island.</value></item>
+<item name="type"><value>Other Resources</value></item><item name="level"><value>Elementary</value><value>Middle School</value><value>High School</value></item><item name="subject"><value>History and Social Studies</value><value>Literature</value></item><item name="grade"><value>K-12 Grades</value></item>
+<item name="subtype"><value>Other</value></item><item name="subtypeother"><value>Suggested Readings</value></item>
+<item name="author"><value/></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>A Voyage to Health</value></item>
+<item name="subtitle"><value/></item>
+<item name="url"><value>http://www.nlm.nih.gov/exhibition/avoyagetohealth/education/resources.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/VH-OR-EdThumb.jpg</value></item>
+<item name="imagealt"><value>Aerial view of an island.</value></item>
+<item name="type"><value>Other Resources</value></item><item name="level"><value>Elementary</value><value>Middle School</value><value>High School</value></item><item name="subject"><value>History and Social Studies</value></item><item name="grade"><value>K-12 Grades</value></item>
+<item name="subtype"><value>Other</value></item><item name="subtypeother"><value>Online Resources</value></item>
+<item name="author"><value/></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>Hawaiian Star Compass</value></item>
+<item name="subtitle"><value/></item>
+<item name="url"><value>http://www.nlm.nih.gov/exhibition/avoyagetohealth/education/online-star.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/VH-OA-Star-EdThumb.jpg</value></item>
+<item name="imagealt"><value>Circular diagram with a bird image in the center.</value></item>
+<item name="type"><value>Online Activities</value></item><item name="level"><value>High School</value><value>College and University</value></item><item name="subject"><value>History and Social Studies</value><value>Science and Technology</value></item><item name="grade"><value>10-College/University</value></item>
+<item name="subtype"><value>Interactive exercise</value></item><item name="subtypeother"><value> </value></item>
+<item name="author"><value/></item>
+</value></item>
+</value></item><item name="mediaresources"><value><item name="resource"><value><item name="title"><value>Star Compass Illustration</value></item>
+<item name="url"><value>http://www.nlm.nih.gov/exhibition/avoyagetohealth/education/online-star.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/curious-compass-lg.jpg</value></item>
+<item name="imagealt"><value>Circular diagram with a bird image in the center.</value></item>
+<item name="thumbnail"><value>/htdocs/hmd/about/exhibition/img/curious-compass-sm.jpg</value></item>
+<item name="thumbnailalt"><value>Circular diagram with a bird image in the center...</value></item>
+<item name="type"><value>Online activity</value></item><item name="tags"><value>Image</value></item><item name="description"><value>&lt;p&gt;The Hawaiian Star Compass was developed by C. Nainoa Thompson, Native Hawaiian master navigator, in order to help train a new generation of traditional voyagers. The star compass represents the pilot’s 360 degree view of the ocean horizon. The compass marks the cardinal points, divides the horizon into several directions, and identifies the rising locations of stars—“the basic mental construct for navigation.” The Hawaiian names on the compass reflect the navigator’s mastery of other elements of the environment, such as winds and birds of the region. Select and examine one of the elements marked on the compass. And consider what they reveal about the native Hawaiian perspectives. To learn more about this image, visit the online exhibition &lt;a href="http://www.nlm.nih.gov/exhibition/avoyagetohealth/index.html" target="_blank"&gt;&lt;i&gt;A Voyage to Health&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;</value></item>
+</value></item>
+</value></item></record>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE record SYSTEM "dcr4.5.dtd">
+<record name="healing.dcr" type="content"><item name="title"><value>Healing the Nation: Stories from the Civil War</value></item><item name="heading"><value>Healing the Nation:</value></item><item name="subheading"><value>&lt;em&gt;Stories from the Civil War&lt;/em&gt;</value></item><item name="permanence"><value><item name="date_issued"><value>2012-10-01</value></item>
+<item name="button_date_issued"><value>2012-10-01</value></item>
+<item name="no_button_date_issued"><value>2012-10-01</value></item>
+<item name="date_modified"><value>2014-01-16</value></item>
+<item name="date_expires"><value>2015-01-16</value></item>
+<item name="date_reviewed"><value>2014-01-16</value></item>
+<item name="contact_email"><value>hmdweb@nlm.nih.gov</value></item><item name="publisher"><value>U.S. National Library of Medicine</value></item>
+<item name="rights"><value>Public Domain</value></item>
+<item name="type"><value>Announcements, News</value></item><item name="level"><value>Permanence Not Guaranteed</value></item><item name="guarantor"><value>U.S. National Library of Medicine</value></item>
+<item name="subjectNtype"><value><item name="subject"><value/></item>
+<item name="subjectType"><value>Keyword</value></item></value></item>
+<item name="languages"><value><item name="language"><value>eng</value></item></value></item>
+<item name="previousversion"><value/></item>
+</value></item><item name="header"><value><item name="metadata"/>
+<item name="head"/>
+</value></item><item name="url"><value>http://www.nlm.nih.gov/hmd/about/exhibition/healingthenation.html</value></item><item name="launchdate"><value>2011-04-22</value></item><item name="xmlfile"><value/></item><item name="theme"><value>Patients and Practitioners</value></item><item name="Thumbnail"><value><item name="thumbnail"><value>/htdocs/hmd/about/exhibition/img/HN-mainThumb.jpg</value></item>
+<item name="thumbnailalt"><value>Photograph of trees and a river</value></item>
+</value></item><item name="Logo"><value><item name="logo"><value>/htdocs/hmd/about/exhibition/img/HN-logo.jpg</value></item>
+<item name="logoalt"><value>Healing the Nation: Stories from the Civil War</value></item>
+</value></item><item name="Headliner"><value><item name="headliner"><value>/htdocs/hmd/about/exhibition/img/HN-main.jpg</value></item>
+<item name="logoalt"><value>Photograph of trees and a river</value></item>
+</value></item><item name="Education"><value><item name="resources"><value/></item>
+<item name="resourcesalt"><value/></item>
+<item name="resourcesRight"><value/></item>
+<item name="resourcesaltRight"><value/></item>
+</value></item><item name="curiousheader"><value><item name="curiousheader"><value/></item>
+<item name="curiousheaderalt"><value/></item>
+</value></item><item name="Traveling"><value><item name="traveling"><value/></item>
+<item name="travelingalt"><value/></item>
+<item name="traveling2"><value/></item>
+<item name="travelingalt2"><value/></item>
+</value></item><item name="exhibitionspecifications"><value><item name="type"><value>Other</value></item><item name="typeother"><value> </value></item>
+<item name="Content"><value>Six banners and structure,&lt;br/&gt;
+Each banner 7 ft. h x 3 ft. W</value></item>
+<item name="Size"><value>500-700 sq. ft.</value></item>
+<item name="Packing"><value>Exhibition is packed in two&lt;br/&gt;
+plastic wheeled graphics tube.&lt;br/&gt;
+46 in. H x 19 in. W
+</value></item>
+<item name="Shipping"><value>Incoming - cost estimate&lt;br/&gt;
+$200-$500</value></item>
+<item name="bookingperiod"><value>6 weeks</value></item>
+</value></item><item name="summary"><value>&lt;p&gt;&lt;strong&gt; The National Library of Medicine commemorates the anniversary of the American Civil War&lt;/strong&gt;  with this collection of exhibitions and resources. Explore the &lt;a href=http://www.nlm.nih.gov/hmd/about/exhibition/healingthenation.html target="_blank"&gt;online&lt;/a&gt; stories of the experiences of physicians, nurses, surgeons, and soldiers. &lt;/p&gt;</value></item><item name="traveling"><value/></item><item name="itinerarydate"><value/></item><item name="travelexhibitionpdf"/><item name="educationresources"/><item name="mediaresources"/></record>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE record SYSTEM "dcr4.5.dtd">
+<record name="dreamanatomy.dcr" type="content"><item name="title"><value>Dream Anatomy</value></item><item name="heading"><value>Dream Anatomy</value></item><item name="subheading"><value/></item><item name="permanence"><value><item name="date_issued"><value>2012-10-01</value></item>
+<item name="button_date_issued"><value>2012-10-01</value></item>
+<item name="no_button_date_issued"><value>2012-10-01</value></item>
+<item name="date_modified"><value>2013-05-01</value></item>
+<item name="date_expires"><value>2015-01-31</value></item>
+<item name="date_reviewed"><value>2014-01-31</value></item>
+<item name="contact_email"><value>hmdweb@nlm.nih.gov</value></item><item name="publisher"><value>U.S. National Library of Medicine</value></item>
+<item name="rights"><value>Public Domain</value></item>
+<item name="type"><value>Announcements, News</value></item><item name="level"><value>Permanence Not Guaranteed</value></item><item name="guarantor"><value>U.S. National Library of Medicine</value></item>
+<item name="subjectNtype"><value><item name="subject"><value/></item>
+<item name="subjectType"><value>Keyword</value></item></value></item>
+<item name="languages"><value><item name="language"><value>eng</value></item></value></item>
+<item name="previousversion"><value/></item>
+</value></item><item name="header"><value><item name="metadata"/>
+<item name="head"/>
+</value></item><item name="url"><value>http://www.nlm.nih.gov/exhibition/dreamanatomy/index.html</value></item><item name="launchdate"><value>2002-10-09</value></item><item name="xmlfile"><value/></item><item name="theme"><value>Medicine and the Arts</value></item><item name="Thumbnail"><value><item name="thumbnail"><value>/htdocs/hmd/about/exhibition/img/DA-mainThumb.jpg</value></item>
+<item name="thumbnailalt"><value>Drawing of a human head with people working inside the skull</value></item>
+</value></item><item name="Logo"><value><item name="logo"><value>/htdocs/hmd/about/exhibition/img/DA-logo.jpg</value></item>
+<item name="logoalt"><value>Text: Dream Anatomy; Image of a skeleton sitting on the letter D in Dream</value></item>
+</value></item><item name="Headliner"><value><item name="headliner"><value>/htdocs/hmd/about/exhibition/img/DA-main.jpg</value></item>
+<item name="logoalt"><value>Drawing of a human head with people working inside the skull</value></item>
+</value></item><item name="Education"><value><item name="resources"><value>/htdocs/hmd/about/exhibition/img/DA-edLt.jpg</value></item>
+<item name="resourcesalt"><value>Diagram of a human skull</value></item>
+<item name="resourcesRight"><value>/htdocs/hmd/about/exhibition/img/DA-edRt.jpg</value></item>
+<item name="resourcesaltRight"><value>Drawing of human musculature</value></item>
+</value></item><item name="curiousheader"><value><item name="curiousheader"><value>/htdocs/hmd/about/exhibition/img/DA-curious.jpg</value></item>
+<item name="curiousheaderalt"><value>Image of a human head represented as a series of connected rooms inside the skull</value></item>
+</value></item><item name="Traveling"><value><item name="traveling"><value/></item>
+<item name="travelingalt"><value/></item>
+<item name="traveling2"><value/></item>
+<item name="travelingalt2"><value/></item>
+</value></item><item name="exhibitionspecifications"><value><item name="type"><value>Banner</value></item><item name="typeother"><value> </value></item>
+<item name="Content"><value>Six banners and structure,&lt;br/&gt;
+Each banner 7 ft. h x 3 ft. W</value></item>
+<item name="Size"><value>500-700 sq. ft.</value></item>
+<item name="Packing"><value>Exhibition is packed in two&lt;br/&gt;
+plastic wheeled graphics tube.&lt;br/&gt;
+46 in. H x 19 in. W
+</value></item>
+<item name="Shipping"><value>Incoming - cost estimate&lt;br/&gt;
+$200-$500</value></item>
+<item name="bookingperiod"><value>6 weeks</value></item>
+</value></item><item name="summary"><value>&lt;p&gt;&lt;strong&gt; The invention of the printing press in the 15th century—and the print technologies that followed—helped to inspire the science of anatomy, and new visions of the body.&lt;/strong&gt; In turn, anatomical imagery proliferated, both detailed and informative, but also whimsical, surreal, beautiful, and grotesque—a dream anatomy that reveals as much about the outer world as it does the inner self. Over the centuries, anatomy has become a visual vocabulary of realism. &lt;a href=http://www.nlm.nih.gov/exhibition/dreamanatomy/index.html target="_blank"&gt;&lt;i&gt;Dream Anatomy&lt;/i&gt;&lt;/a&gt; shows off the anatomical imagination from 1500 to the present.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=http://www.nlm.nih.gov/exhibition/dreamanatomy/index.html target="_blank"&gt;online&lt;/a&gt; exhibition features a range of &lt;a href=http://www.nlm.nih.gov/exhibition/dreamanatomy/da_learning.html target="_blank"&gt;resources&lt;/a&gt; for educators and students, including lesson plans developed by classroom teachers for middle and high school classes and educational online activities.&lt;/p&gt;
+
+&lt;p&gt;In 2004, the National Library of Medicine and the &lt;a href=http://bookstore.gpo.gov/collections/dreamanatomy.jsp target="_blank"&gt;US Government Printing Office&lt;/a&gt; published an exhibition catalog titled &lt;i&gt;Dream Anatomy&lt;/i&gt;.&lt;/p&gt;
+
+&lt;p&gt;In 2003, the American Association of Museums, for the annual Museums Publication Design Competition, presented Second Prize for supplementary materials for the exhibition brochure and postcard set, and Honorable Mention for the exhibition poster.&lt;/p&gt;
+</value></item><item name="traveling"><value/></item><item name="itinerarydate"><value/></item><item name="travelexhibitionpdf"/><item name="educationresources"><value><item name="resource"><value><item name="title"><value>History of Printing</value></item>
+<item name="subtitle"><value> </value></item>
+<item name="url"><value>http://www.nlm.nih.gov/exhibition/dreamanatomy/ec_historyofprinting.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/DA_LP_HoP.jpg</value></item>
+<item name="imagealt"><value>Drawing of a skeletal hand with wisps of skin</value></item>
+<item name="type"><value>Lesson Plans</value></item><item name="level"><value>Middle School</value><value>High School</value></item><item name="subject"><value>History and Social Studies</value><value>Science and Technology</value></item><item name="grade"><value>6-12 Grades</value></item>
+<item name="subtype"><value>Other</value></item><item name="subtypeother"><value>Lesson Plan</value></item>
+<item name="author"><value/></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>Beginnings of Anatomical Illustrations</value></item>
+<item name="subtitle"><value> </value></item>
+<item name="url"><value>http://www.nlm.nih.gov/exhibition/dreamanatomy/ec_beginnings.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/DA-LP-BoAI-edThumb.jpg</value></item>
+<item name="imagealt"><value>Crude drawing representing human anatomy</value></item>
+<item name="type"><value>Lesson Plans</value></item><item name="level"><value>High School</value></item><item name="subject"><value>History and Social Studies</value></item><item name="grade"><value>9–12 Grades</value></item>
+<item name="subtype"><value>Other</value></item><item name="subtypeother"><value>Lesson Plan</value></item>
+<item name="author"><value/></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>Anatomical Metaphors</value></item>
+<item name="subtitle"><value> </value></item>
+<item name="url"><value>http://www.nlm.nih.gov/exhibition/dreamanatomy/ec_anatomicalmetaphors.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/DA-LP-AM-edThumb.jpg</value></item>
+<item name="imagealt"><value>Image of a human head represented as a series of connected rooms inside the skull</value></item>
+<item name="type"><value>Lesson Plans</value></item><item name="level"><value>Middle School</value></item><item name="subject"><value>Science and Technology</value></item><item name="grade"><value>7-8 Grades</value></item>
+<item name="subtype"><value>Other</value></item><item name="subtypeother"><value>Lesson Plan</value></item>
+<item name="author"><value/></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>Anatomy and Printing Technologies</value></item>
+<item name="subtitle"><value> </value></item>
+<item name="url"><value>http://www.nlm.nih.gov/exhibition/dreamanatomy/onlineactivities.html#printing</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/DA-OA-AaPT-edThumb.jpg</value></item>
+<item name="imagealt"><value>Series of drawings of musculature in a human figure</value></item>
+<item name="type"><value>Online Activities</value></item><item name="level"><value>High School</value></item><item name="subject"><value>History and Social Studies</value><value>Science and Technology</value></item><item name="grade"><value>9-12 Grades</value></item>
+<item name="subtype"><value>Reflection exercise</value></item><item name="subtypeother"><value> </value></item>
+<item name="author"><value/></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>Whose Bodies are They?</value></item>
+<item name="subtitle"><value> </value></item>
+<item name="url"><value>http://www.nlm.nih.gov/exhibition/dreamanatomy/onlineactivities.html#bodies</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/DA-OA-WBAT-edThumb.jpg</value></item>
+<item name="imagealt"><value>Drawing of a person holding flap of skin</value></item>
+<item name="type"><value>Online Activities</value></item><item name="level"><value>High School</value></item><item name="subject"><value>History and Social Studies</value></item><item name="grade"><value>10-12 Grades</value></item>
+<item name="subtype"><value>Reflection exercise</value></item><item name="subtypeother"><value> </value></item>
+<item name="author"><value/></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>Dream Anatomy</value></item>
+<item name="subtitle"><value> </value></item>
+<item name="url"><value>http://www.nlm.nih.gov/dreamanatomy/da_gallery.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/DA-OR-edThumb.jpg</value></item>
+<item name="imagealt"><value>Image of skull cross-section as viewed from above</value></item>
+<item name="type"><value>Other Resources</value></item><item name="level"><value>Middle School</value><value>High School</value><value>College and University</value></item><item name="subject"><value>History and Social Studies</value></item><item name="grade"><value>7-College/University</value></item>
+<item name="subtype"><value>Other</value></item><item name="subtypeother"><value>Image Gallery</value></item>
+<item name="author"><value/></item>
+</value></item>
+</value></item><item name="mediaresources"><value><item name="resource"><value><item name="title"><value>Der Mensch als Industriepalast (Man as Industrial Palace), 1926</value></item>
+<item name="url"><value>http://www.nlm.nih.gov/dreamanatomy/da_g_IV-A-01.html#mensch</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/dermensch-curious-lg.jpg</value></item>
+<item name="imagealt"><value>Image of a human head represented as a series of connected rooms inside the skull</value></item>
+<item name="thumbnail"><value>/htdocs/hmd/about/exhibition/img/dermensch-curious.jpg</value></item>
+<item name="thumbnailalt"><value>Image of a human head represented as a series of connected rooms inside the skull</value></item>
+<item name="type"><value>Image</value></item><item name="tags"><value>Chromolithograph</value></item><item name="description"><value>In this representation of a chromolithograph, German artist Fritz Kahn (1888-1968) depicts a modernist visualization of the human digestive and respiratory systems, as an "industrial palace" or chemical plant. Kahn conceived of Der Mensch als Industriepalast in a period when the German chemical industry was the world's most advanced. To learn more about the history of anatomical representations, visit 
+&lt;a href=http://www.nlm.nih.gov/exhibition/dreamanatomy/da_g_IV-A-01.html#mensch target="_blank"&gt;&lt;i&gt;Dream Anatomy&lt;/i&gt;&lt;/a&gt;.</value></item>
+</value></item>
+</value></item></record>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE record SYSTEM "dcr4.5.dtd">
+<record name="harrypotter.dcr" type="content"><item name="title"><value>Harry Potter's World: Renaissance Science, Magic, and Medicine</value></item><item name="heading"><value>Harry Potter's World:</value></item><item name="subheading"><value>&lt;em&gt;Renaissance Science, Magic, and Medicine&lt;/em&gt;</value></item><item name="permanence"><value><item name="date_issued"><value>2012-10-01</value></item>
+<item name="button_date_issued"><value>2012-10-01</value></item>
+<item name="no_button_date_issued"><value>2012-10-01</value></item>
+<item name="date_modified"><value>2014-04-10</value></item>
+<item name="date_expires"><value>2015-04-10</value></item>
+<item name="date_reviewed"><value>2014-04-10</value></item>
+<item name="contact_email"><value>hmdweb@nlm.nih.gov</value></item><item name="publisher"><value>U.S. National Library of Medicine</value></item>
+<item name="rights"><value>Public Domain</value></item>
+<item name="type"><value>Announcements, News</value></item><item name="level"><value>Permanence Not Guaranteed</value></item><item name="guarantor"><value>U.S. National Library of Medicine</value></item>
+<item name="subjectNtype"><value><item name="subject"><value/></item>
+<item name="subjectType"><value>Keyword</value></item></value></item>
+<item name="languages"><value><item name="language"><value>eng</value></item></value></item>
+<item name="previousversion"><value/></item>
+</value></item><item name="header"><value><item name="metadata"/>
+<item name="head"/>
+</value></item><item name="url"><value>http://www.nlm.nih.gov/exhibition/harrypottersworld/</value></item><item name="launchdate"><value>2009-07-04</value></item><item name="xmlfile"><value>/htdocs/hmd/about/exhibition/harrypotter.xml</value></item><item name="theme"><value>Medicine and the Arts</value></item><item name="Thumbnail"><value><item name="thumbnail"><value>/htdocs/hmd/about/exhibition/img/HPW-mainThumb.jpg</value></item>
+<item name="thumbnailalt"><value>Drawing of a man next to a fiery cauldron</value></item>
+</value></item><item name="Logo"><value><item name="logo"><value>/htdocs/hmd/about/exhibition/img/HPW-logo.jpg</value></item>
+<item name="logoalt"><value>Image of an owl next to text: Harry Potter's World, Renaissance Science, Magic and Medicine</value></item>
+</value></item><item name="Headliner"><value><item name="headliner"><value>/htdocs/hmd/about/exhibition/img/HPW-main.jpg</value></item>
+<item name="logoalt"><value>Drawing of a man next to a fiery cauldron</value></item>
+</value></item><item name="Education"><value><item name="resources"><value>/htdocs/hmd/about/exhibition/img/HPW-edLt.jpg</value></item>
+<item name="resourcesalt"><value>Drawing of a frowning man</value></item>
+<item name="resourcesRight"><value>/htdocs/hmd/about/exhibition/img/HPW-edRt.jpg</value></item>
+<item name="resourcesaltRight"><value>Drawing of a Basilisk</value></item>
+</value></item><item name="curiousheader"><value><item name="curiousheader"><value/></item>
+<item name="curiousheaderalt"><value/></item>
+</value></item><item name="Traveling"><value><item name="traveling"><value>/htdocs/hmd/about/exhibition/img/HPW-exhibition.jpg</value></item>
+<item name="travelingalt"><value>Six panels with images of mythical creatures</value></item>
+<item name="traveling2"><value>/htdocs/hmd/about/exhibition/img/HPW-installation.jpg</value></item>
+<item name="travelingalt2"><value>On-lookers admiring the banners</value></item>
+</value></item><item name="exhibitionspecifications"><value><item name="type"><value>Banner</value></item><item name="typeother"><value> </value></item>
+<item name="Content"><value>Six banners and structure,&lt;br/&gt;
+Each banner 7 ft. h x 3 ft. W</value></item>
+<item name="Size"><value>500-700 sq. ft.</value></item>
+<item name="Packing"><value>Exhibition is packed in two&lt;br/&gt;
+plastic wheeled graphics tube.&lt;br/&gt;
+46 in. H x 19 in. W
+</value></item>
+<item name="Shipping"><value>One-way - cost estimate&lt;br/&gt;
+$200-$500</value></item>
+<item name="bookingperiod"><value>6 weeks</value></item>
+</value></item><item name="summary"><value>&lt;p&gt;&lt;strong&gt; In 1997, British author J. K. Rowling introduced the world to Harry Potter and the story of the young boy’s coming of age.&lt;/strong&gt;  Since then, millions of readers have followed Harry to the Hogwarts School of Witchcraft and Wizardry, where he discovers his heritage, encounters new species of plants and animals, and perfects his magic abilities. The magic in the Harry Potter novels is partially based on Renaissance traditions that played an important role in the development of Western science, including alchemy, astrology, and natural philosophy. &lt;a href=http://www.nlm.nih.gov/exhibition/harrypottersworld/ target="_blank"&gt;&lt;i&gt;Harry Potter's World: Renaissance, Science, Magic, and Medicine&lt;/i&gt;&lt;/a&gt; explores the intersection of these worlds, featuring highlights from the collections of the History of Medicine Division, National Library of Medicine.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=http://www.nlm.nih.gov/exhibition/harrypottersworld/ target="_blank"&gt;online&lt;/a&gt; exhibition includes &lt;a href=http://www.nlm.nih.gov/exhibition/harrypottersworld/educationResources.html target="_blank"&gt;resources&lt;/a&gt; for educators and students, such as lesson plans developed by classroom teachers for middle and high school classes, a higher education module developed by a scholar working in the discipline for undergraduate and graduate students and instructors, educational online activities, and additional readings.&lt;/p&gt;
+
+&lt;p&gt;Beginning in September 2009, the exhibition has traveled free of charge to interested libraries and cultural centers. Please go to &lt;a href=http://www.nlm.nih.gov/hmd/about/exhibition/harrypotter-bookinfo.html&gt;Book a Traveling Exhibition&lt;/a&gt; for more information.&lt;/p&gt;</value></item><item name="traveling"><value>&lt;p&gt;&lt;strong&gt; The magic in J. K. Rowling’s series of Harry Potter novels is partially based on Renaissance traditions that played an important role in the development of Western science, including alchemy, astrology, and natural philosophy.&lt;/strong&gt;  &lt;a href=http://www.nlm.nih.gov/exhibition/harrypottersworld/ target="_blank"&gt;&lt;i&gt;Harry Potter's World: Renaissance, Science, Magic, and Medicine&lt;/i&gt;&lt;/a&gt; explores the intersection of these worlds, featuring highlights from the collections of the History of Medicine Division at the National Library of Medicine.&lt;/p&gt;</value></item><item name="itinerarydate"><value>2009-10-04</value></item><item name="travelexhibitionpdf"><value><item name="pdfentry"><value><item name="content"><value>Exhibition Basic Information </value></item>
+<item name="file"><value>http://www.nlm.nih.gov/hmd/about/exhibition/travelingexhibitions/pdf/hpbasicinfo.pdf</value></item>
+</value></item>
+</value><value><item name="pdfentry"><value><item name="content"><value>Exhibition Shipping Instructions </value></item>
+<item name="file"><value>http://www.nlm.nih.gov/hmd/about/exhibition/travelingexhibitions/pdf/hpshipping.pdf</value></item>
+</value></item>
+</value><value><item name="pdfentry"><value><item name="content"><value>Exhibition PR Information </value></item>
+<item name="file"><value>http://www.nlm.nih.gov/hmd/about/exhibition/travelingexhibitions/pdf/hpprinfo.pdf</value></item>
+</value></item>
+</value><value><item name="pdfentry"><value><item name="content"><value>Exhibition PR Images </value></item>
+<item name="file"><value>http://www.nlm.nih.gov/hmd/about/exhibition/travelingexhibitions/hpprimages.html</value></item>
+</value></item>
+</value><value><item name="pdfentry"><value><item name="content"><value>Exhibition Brochure Inside </value></item>
+<item name="file"><value>http://www.nlm.nih.gov/hmd/about/exhibition/travelingexhibitions/pdf/hpbrochureinside.pdf</value></item>
+</value></item>
+</value><value><item name="pdfentry"><value><item name="content"><value>Exhibition Brochure Outside </value></item>
+<item name="file"><value>http://www.nlm.nih.gov/hmd/about/exhibition/travelingexhibitions/pdf/hpbrochureoutside.pdf</value></item>
+</value></item>
+</value><value><item name="pdfentry"><value><item name="content"><value>Exhibition Poster </value></item>
+<item name="file"><value>http://www.nlm.nih.gov/hmd/about/exhibition/travelingexhibitions/pdf/hpposter.pdf</value></item>
+</value></item>
+</value><value><item name="pdfentry"><value><item name="content"><value>Exhibition Trading Cards </value></item>
+<item name="file"><value>http://www.nlm.nih.gov/hmd/about/exhibition/travelingexhibitions/hptradingcards.html</value></item>
+</value></item>
+</value><value><item name="pdfentry"><value><item name="content"><value>Traveling Exhibition Host Survey</value></item>
+<item name="file"><value>http://www.nlm.nih.gov/hmd/about/exhibition/travelingexhibitions/pdf/Traveling_Exhibition_Host_Survey.pdf</value></item>
+</value></item>
+</value><value><item name="pdfentry"><value><item name="content"><value>Exhibition Website</value></item>
+<item name="file"><value>http://www.nlm.nih.gov/exhibition/harrypottersworld/</value></item>
+</value></item>
+</value><value><item name="pdfentry"><value><item name="content"><value>Exhibition Installation Video</value></item>
+<item name="file"><value>http://www.nlm.nih.gov/hmd/about/exhibition/travelingexhibitions/installationvideo.html</value></item>
+</value></item>
+</value></item><item name="educationresources"><value><item name="resource"><value><item name="title"><value>Boggart and Fear in &lt;i&gt;Harry Potter&lt;/i&gt;</value></item>
+<item name="subtitle"><value> </value></item>
+<item name="url"><value>http://www.nlm.nih.gov/exhibition/harrypottersworld/education/lessonplans/english.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/HP-LP-BaF-edThumb.jpg</value></item>
+<item name="imagealt"><value>Drawing of a basilisk</value></item>
+<item name="type"><value>Lesson Plans</value></item><item name="level"><value>Middle School</value><value>High School</value></item><item name="subject"><value>Literature</value></item><item name="grade"><value>7-10 Grades</value></item>
+<item name="subtype"><value>Other</value></item><item name="subtypeother"><value>Lesson Plan</value></item>
+<item name="author"><value/></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>Genetic Traits in &lt;i&gt;Harry Potter&lt;/i&gt;</value></item>
+<item name="subtitle"><value> </value></item>
+<item name="url"><value>http://www.nlm.nih.gov/exhibition/harrypottersworld/education/lessonplans/science.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/HP-LP-GT-edThumb.jpg</value></item>
+<item name="imagealt"><value>Genetic Traits in Harry Potter</value></item>
+<item name="type"><value>Lesson Plans</value></item><item name="level"><value>Middle School</value><value>High School</value></item><item name="subject"><value>Science and Technology</value></item><item name="grade"><value>7-11 Grades</value></item>
+<item name="subtype"><value>Other</value></item><item name="subtypeother"><value>Lesson Plan</value></item>
+<item name="author"><value/></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>"Things Most Strange and Wondrous":</value></item>
+<item name="subtitle"><value>The Hidden Roots of Modern Science and Medicine</value></item>
+<item name="url"><value>http://www.nlm.nih.gov/exhibition/harrypottersworld/education/higherEducation.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/HP-HE-Mod-edThumb.jpg</value></item>
+<item name="imagealt"><value>Drawing of a frowning man</value></item>
+<item name="type"><value>Higher Education Modules</value></item><item name="level"><value>College and University</value></item><item name="subject"><value>History and Social Studies</value></item><item name="grade"><value>College/University</value></item>
+<item name="subtype"><value>Other</value></item><item name="subtypeother"><value>Higher Education Module</value></item>
+<item name="author"><value>Mark A. Waddell, PhD</value></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>Desire for Knowledge</value></item>
+<item name="subtitle"><value> </value></item>
+<item name="url"><value>http://www.nlm.nih.gov/exhibition/harrypottersworld/education/onlineActivities.html#knowledge</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/HP-OA-DfK-edThumb.jpg</value></item>
+<item name="imagealt"><value>Drawing of a cauldron with fire underneath </value></item>
+<item name="type"><value>Online Activities</value></item><item name="level"><value>Elementary</value><value>Middle School</value></item><item name="subject"><value>History and Social Studies</value><value>Literature</value></item><item name="grade"><value>5-7 Grades</value></item>
+<item name="subtype"><value>Reflection exercise</value></item><item name="subtypeother"><value> </value></item>
+<item name="author"><value/></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>Different Perspectives</value></item>
+<item name="subtitle"><value> </value></item>
+<item name="url"><value>http://www.nlm.nih.gov/exhibition/harrypottersworld/education/onlineActivities.html#perspectives</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/HP-OA-DP-edThumb.jpg</value></item>
+<item name="imagealt"><value>Drawing of a centaur</value></item>
+<item name="type"><value>Online Activities</value></item><item name="level"><value>Elementary</value><value>Middle School</value></item><item name="subject"><value>History and Social Studies</value><value>Literature</value></item><item name="grade"><value>5-7 Grades</value></item>
+<item name="subtype"><value>Reflection exercise</value></item><item name="subtypeother"><value> </value></item>
+<item name="author"><value/></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>Harry Potter's World:</value></item>
+<item name="subtitle"><value>Renaissance Science, Magic, and Medicine</value></item>
+<item name="url"><value>http://www.nlm.nih.gov/exhibition/harrypottersworld/education/bibliography.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/HP-OR-edThumb.jpg</value></item>
+<item name="imagealt"><value>Photograph of an open book</value></item>
+<item name="type"><value>Other Resources</value></item><item name="level"><value>Elementary</value><value>Middle School</value><value>High School</value><value>College and University</value></item><item name="subject"><value>History and Social Studies</value><value>Literature</value></item><item name="grade"><value>5-College/University</value></item>
+<item name="subtype"><value>Other</value></item><item name="subtypeother"><value>Suggested Readings</value></item>
+<item name="author"><value/></item>
+</value></item>
+</value></item><item name="mediaresources"/></record>

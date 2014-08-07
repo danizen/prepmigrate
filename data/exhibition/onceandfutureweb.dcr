@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE record SYSTEM "dcr4.5.dtd">
+<record name="onceandfutureweb.dcr" type="content"><item name="title"><value>The Once and Future Web: Worlds Woven by Telegraph and Internet</value></item><item name="heading"><value>The Once and Future Web:</value></item><item name="subheading"><value>&lt;em&gt;Worlds Woven by Telegraph and Internet&lt;/em&gt;</value></item><item name="permanence"><value><item name="date_issued"><value>2012-10-01</value></item>
+<item name="button_date_issued"><value>2012-10-01</value></item>
+<item name="no_button_date_issued"><value>2012-10-01</value></item>
+<item name="date_modified"><value>2014-01-16</value></item>
+<item name="date_expires"><value>2015-01-16</value></item>
+<item name="date_reviewed"><value>2014-01-16</value></item>
+<item name="contact_email"><value>hmdweb@nlm.nih.gov</value></item><item name="publisher"><value>U.S. National Library of Medicine</value></item>
+<item name="rights"><value>Public Domain</value></item>
+<item name="type"><value>Announcements, News</value></item><item name="level"><value>Permanence Not Guaranteed</value></item><item name="guarantor"><value>U.S. National Library of Medicine</value></item>
+<item name="subjectNtype"><value><item name="subject"><value/></item>
+<item name="subjectType"><value>Keyword</value></item></value></item>
+<item name="languages"><value><item name="language"><value>eng</value></item></value></item>
+<item name="previousversion"><value/></item>
+</value></item><item name="header"><value><item name="metadata"/>
+<item name="head"/>
+</value></item><item name="url"><value>http://www.nlm.nih.gov/archive/20120104/onceandfutureweb/</value></item><item name="launchdate"><value>2001-10-23</value></item><item name="xmlfile"><value/></item><item name="theme"><value>Technology of Medicine</value></item><item name="Thumbnail"><value><item name="thumbnail"><value>/htdocs/hmd/about/exhibition/img/OFW-mainThumb.jpg</value></item>
+<item name="thumbnailalt"><value>Painting of a woman with an abstract background</value></item>
+</value></item><item name="Logo"><value><item name="logo"><value>/htdocs/hmd/about/exhibition/img/OFW-logo.jpg</value></item>
+<item name="logoalt"><value>The Once and Future Web: Worlds Woven together by the Telegraph and Internet</value></item>
+</value></item><item name="Headliner"><value><item name="headliner"><value>/htdocs/hmd/about/exhibition/img/OFW-main.jpg</value></item>
+<item name="logoalt"><value>Painting of a woman with an abstract background</value></item>
+</value></item><item name="Education"><value><item name="resources"><value>/htdocs/hmd/about/exhibition/img/OFW-edLt.jpg</value></item>
+<item name="resourcesalt"><value>Radio Tower</value></item>
+<item name="resourcesRight"><value>/htdocs/hmd/about/exhibition/img/OFW-edRt.jpg</value></item>
+<item name="resourcesaltRight"><value>Historical photograph of a large machine</value></item>
+</value></item><item name="curiousheader"><value><item name="curiousheader"><value>/htdocs/hmd/about/exhibition/img/OFW-curious.jpg</value></item>
+<item name="curiousheaderalt"><value>Historical photograph of a man with white hair and a long white beard</value></item>
+</value></item><item name="Traveling"><value><item name="traveling"><value/></item>
+<item name="travelingalt"><value/></item>
+<item name="traveling2"><value/></item>
+<item name="travelingalt2"><value/></item>
+</value></item><item name="exhibitionspecifications"><value><item name="type"><value>Other</value></item><item name="typeother"><value> </value></item>
+<item name="Content"><value>Six banners and structure,&lt;br/&gt;
+Each banner 7 ft. h x 3 ft. W</value></item>
+<item name="Size"><value>500-700 sq. ft.</value></item>
+<item name="Packing"><value>Exhibition is packed in two&lt;br/&gt;
+plastic wheeled graphics tube.&lt;br/&gt;
+46 in. H x 19 in. W
+</value></item>
+<item name="Shipping"><value>Incoming - cost estimate&lt;br/&gt;
+$200-$500</value></item>
+<item name="bookingperiod"><value>6 weeks</value></item>
+</value></item><item name="summary"><value>&lt;p&gt;&lt;strong&gt;The pioneering networks of the telegraph in many ways foretold the influence of our contemporary network of networks—the Internet.&lt;/strong&gt; Yesterday, the telegraph offered spectacular promise, yet it also raised daunting challenges. Today, in striking parallels, the Internet does the same. The ability to exchange information in split seconds has influenced every aspect of life, opening new worlds. &lt;a href=http://www.nlm.nih.gov/archive/20120104/onceandfutureweb/ target="_blank"&gt;&lt;i&gt;Once and Future Web: Worlds Woven by Telegraph and Internet&lt;/i&gt;&lt;/a&gt; explores how, by transforming how we communicate, we transform ourselves.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=http://www.nlm.nih.gov/archive/20120104/onceandfutureweb/ target="_blank"&gt;online exhibition&lt;/a&gt; features a range of &lt;a href=http://www.nlm.nih.gov/archive/20120104/onceandfutureweb/learning.html target="_blank"&gt;resources&lt;/a&gt; for educators and students, including classroom activities for middle and high school learners, educational online activities, and an exhibition library or glossary of terms used throughout the online exhibition.&lt;/p&gt;
+</value></item><item name="traveling"><value/></item><item name="itinerarydate"><value>2001-10-23</value></item><item name="travelexhibitionpdf"/><item name="educationresources"><value><item name="resource"><value><item name="title"><value>Comparing the Telegraph and Internet</value></item>
+<item name="subtitle"><value> </value></item>
+<item name="url"><value>http://www.nlm.nih.gov/archive/20120104/onceandfutureweb/classroom/comparing.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/OAFW-LP-Tal-edThumb.jpg</value></item>
+<item name="imagealt"><value>Man manipulates a large electronic device</value></item>
+<item name="type"><value>Lesson Plans</value></item><item name="level"><value>Middle School</value></item><item name="subject"><value>Science and Technology</value></item><item name="grade"><value>6-8 Grades</value></item>
+<item name="subtype"><value>Other</value></item><item name="subtypeother"><value>Lesson Plan</value></item>
+<item name="author"><value/></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>Developing Historical Perspectives on Communications Technology</value></item>
+<item name="subtitle"><value> </value></item>
+<item name="url"><value>http://www.nlm.nih.gov/archive/20120104/onceandfutureweb/classroom/developing.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/OAFW-LP-HPoT-edThumb.jpg</value></item>
+<item name="imagealt"><value>Illustration of people outdoors</value></item>
+<item name="type"><value>Lesson Plans</value></item><item name="level"><value>Middle School</value><value>High School</value></item><item name="subject"><value>History and Social Studies</value><value>Science and Technology</value></item><item name="grade"><value>7-9 Grades</value></item>
+<item name="subtype"><value>Other</value></item><item name="subtypeother"><value>Lesson Plan</value></item>
+<item name="author"><value/></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>Using the Telegraph and Internet</value></item>
+<item name="subtitle"><value> </value></item>
+<item name="url"><value>http://www.nlm.nih.gov/archive/20120104/onceandfutureweb/classroom/using.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/OAFW-LP-UTal-edThumb.jpg</value></item>
+<item name="imagealt"><value>Drawing of a man at a desk</value></item>
+<item name="type"><value>Lesson Plans</value></item><item name="level"><value>Middle School</value><value>High School</value></item><item name="subject"><value>Science and Technology</value></item><item name="grade"><value>7-9 Grades</value></item>
+<item name="subtype"><value>Other</value></item><item name="subtypeother"><value>Lesson Plan</value></item>
+<item name="author"><value/></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>The Once and Future National Library of Medicine </value></item>
+<item name="subtitle"><value> </value></item>
+<item name="url"><value>http://www.nlm.nih.gov/archive/20120104/onceandfutureweb/onlineactivities/oncenfuture_nlm.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/OAFW-OA-OaFNLM-edThumb.jpg</value></item>
+<item name="imagealt"><value>Three people working around a large electronic device</value></item>
+<item name="type"><value>Online Activities</value></item><item name="level"><value>Middle School</value><value>High School</value></item><item name="subject"><value>History and Social Studies</value><value>Science and Technology</value></item><item name="grade"><value>7-9 Grades</value></item>
+<item name="subtype"><value>Reflection exercise</value></item><item name="subtypeother"><value> </value></item>
+<item name="author"><value> </value></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>Meet the Innovators </value></item>
+<item name="subtitle"><value> </value></item>
+<item name="url"><value>http://www.nlm.nih.gov/archive/20120104/onceandfutureweb/onlineactivities/meet_innovators.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/OAFW-OA-Mtl-edThumb.jpg</value></item>
+<item name="imagealt"><value>Painting of a man with white hair and a long white beard</value></item>
+<item name="type"><value>Online Activities</value></item><item name="level"><value>Middle School</value><value>High School</value></item><item name="subject"><value>History and Social Studies</value><value>Science and Technology</value></item><item name="grade"><value>7-10 Grades</value></item>
+<item name="subtype"><value>Reflection exercise</value></item><item name="subtypeother"><value> </value></item>
+<item name="author"><value/></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>View the Parallels between the Telegraph and Internet</value></item>
+<item name="subtitle"><value> </value></item>
+<item name="url"><value>http://www.nlm.nih.gov/archive/20120104/onceandfutureweb/onlineactivities/view_parallels.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/OAFW-OA-VtP-edThumb.jpg</value></item>
+<item name="imagealt"><value>Three people wearing parkas in a snowy environment, with a radio tower in the background</value></item>
+<item name="type"><value>Online Activities</value></item><item name="level"><value>Middle School</value></item><item name="subject"><value>History and Social Studies</value><value>Science and Technology</value></item><item name="grade"><value>6-8 Grades</value></item>
+<item name="subtype"><value>Reflection exercise</value></item><item name="subtypeother"><value> </value></item>
+<item name="author"><value/></item>
+</value></item>
+</value></item><item name="mediaresources"><value><item name="resource"><value><item name="title"><value>Ma Kiley Works the Line, 2001</value></item>
+<item name="url"><value>http://www.nlm.nih.gov/archive/20120104/onceandfutureweb/database/secb/case2-artifacts/menu-audio.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/kiley-curious-lg.jpg</value></item>
+<item name="imagealt"><value>A photograph of a woman next to a magazine cover</value></item>
+<item name="thumbnail"><value>/htdocs/hmd/about/exhibition/img/kiley-curious.jpg</value></item>
+<item name="thumbnailalt"><value>A photograph of a woman next to a magazine cover</value></item>
+<item name="type"><value>Audio</value></item><item name="tags"><value>Biography</value></item><item name="description"><value>In 1950, Railroad Magazine published a four-part series entitled "The Bug and I," an autobiographical account of Mattie Collins Brite, known as "Ma Kiley." Born in 1880, in Atacosa County, Texas, Ma Kiley worked as a telegraph operator for 40 years in remote locales that ranged from northern Mexico to Saskatchewan, Canada. Featured in the exhibition &lt;a href=http://www.nlm.nih.gov/archive/20120104/onceandfutureweb/ target="_blank"&gt;&lt;i&gt;The Once and Future Web: Worlds Woven by the Telegraph and Internet&lt;/i&gt;&lt;/a&gt;, "The Bug and I" told the story of Ma Kiley's life in telegraphy-her joys and hardships as a "boomer." </value></item>
+</value></item>
+</value><value><item name="resource"><value><item name="title"><value>Samuel F. B. Morse: In His Own Words, 2001 </value></item>
+<item name="url"><value>http://www.nlm.nih.gov/archive/20120104/onceandfutureweb/database/seca/case2-artifacts/menu-audio.html</value></item>
+<item name="image"><value>/htdocs/hmd/about/exhibition/img/samuelmorse-curious-lg.jpg</value></item>
+<item name="imagealt"><value>Photograph of a man with white hair and a long white beard</value></item>
+<item name="thumbnail"><value>/htdocs/hmd/about/exhibition/img/samuelmorse-curious.jpg</value></item>
+<item name="thumbnailalt"><value>Photograph of a man with white hair and a long white beard</value></item>
+<item name="type"><value>Audio</value></item><item name="tags"><value>Audio</value></item><item name="description"><value>The American painter and inventor Samuel F. B. Morse (1791-1872) is credited with designing and developing the first electromagnetic telegraph system. Morse conceived the idea for a telegraph in 1832, but faced many challenges before he was able to transmit his first message in 1844. This audio recording featured in the exhibition &lt;a href=http://www.nlm.nih.gov/archive/20120104/onceandfutureweb/ target="_blank"&gt;&lt;i&gt;The Once and Future Web: Worlds Woven by the Telegraph and Internet&lt;/i&gt;&lt;/a&gt; captures Morse's words, read from various letters and diaries describing his journey.</value></item>
+</value></item>
+</value></item></record>

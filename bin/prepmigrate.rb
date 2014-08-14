@@ -44,10 +44,15 @@ case type
           dcr_path = row[0]
           url = row[1]
           real_path = File.expand_path(dcr_path, File.dirname(csvpath))
-          xml.dcr do 
+
+          dcr = Prepmigrate.parse_dcr(real_path, url)
+          raise RuntimeError, "What Happened" unless dcr
+
+          xml.exhibition do 
             xml.filename { xml.text real_path }
             xml.source { xml.text url }
-            Prepmigrate.parse_dcr(real_path, url).to_xml xml
+            xml.alias { xml.text dcr.mkalias }
+            dcr.to_xml xml
           end
         end
       end

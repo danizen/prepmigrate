@@ -30,8 +30,7 @@ module Prepmigrate
     end
 
     def to_xml (xml)
-      xml.exhibition do
-        xml.alias { xml.text mkalias }
+      xml.dcr do
         items.to_xml xml
       end
     end

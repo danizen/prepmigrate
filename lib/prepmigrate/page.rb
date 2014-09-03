@@ -1,5 +1,5 @@
 require 'nokogiri'
-require 'uri'
+require 'addressable/uri'
 require 'ostruct'
 
 module Prepmigrate
@@ -18,7 +18,7 @@ module Prepmigrate
 
     def initialize(url, body)
       @url = url
-      @path = URI(url).path.sub /\.html?\Z/, ''
+      @path = Addressable::URI.parse(url).path.sub /\.html?\Z/, ''
       @doc = Nokogiri::HTML::Document.parse (body)
       @notes = Array.new
     end
@@ -62,7 +62,7 @@ module Prepmigrate
             # values within category
             category.xpath("ul/li/a").each do |link|
               unless link['href'].nil?
-                href = URI(link['href'])
+                href = Addressable::URI.parse(link['href'])
                 if (href.absolute? && href.scheme.eql?('http') && href.hostname.eql?('www.nlm.nih.gov'))
                   href.scheme = nil
                   href.hostname = nil
@@ -184,8 +184,8 @@ module Prepmigrate
       # look for relative images and make them absolute
       node.xpath('.//img[@src]').each do |img|
         begin
-          src = URI(img['src'])
-          if (src.relative?) 
+          src = Addressable::URI.parse(img['src'])
+          if (src.relative? && src.path[0,1] == '/')
             src.scheme = 'http'
             src.hostname = 'www.nlm.nih.gov'
             img['src'] = src.to_s
@@ -199,7 +199,7 @@ module Prepmigrate
       # Also strip the ".html" from all links
       node.xpath('.//a[@href]').each do |link|
         begin 
-          href = URI(link['href'])
+          href = Addressable::URI.parse(link['href'])
           if (href.absolute? && href.scheme.eql?('http') && href.hostname.eql?("www.nlm.nih.gov"))
             href.scheme = nil
             href.hostname = nil

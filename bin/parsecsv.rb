@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 require 'csv'
-require 'uri'
+require 'addressable/uri'
 require 'net/http'
 
 if (ARGV.size != 1) 

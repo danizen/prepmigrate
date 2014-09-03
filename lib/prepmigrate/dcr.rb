@@ -1,5 +1,5 @@
 require 'nokogiri'
-require 'uri'
+require 'addressable/uri'
 
 module Prepmigrate
   class DCR
@@ -16,7 +16,7 @@ module Prepmigrate
 
     def mkalias
       unless @alias
-        uri = URI(url)
+        uri = Addressable::URI.parse(url)
         uri.scheme = nil
         uri.hostname = nil                
         uri.path = uri.path.sub /\.html?\z/, ''
